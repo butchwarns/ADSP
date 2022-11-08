@@ -20,7 +20,7 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     
-    - name: checkout all the submodules
+    - name: checkout all submodules
       uses: actions/checkout@v3
       with:
         submodules: recursive
