@@ -34,9 +34,3 @@
 #define ADSP_H_INCLUDED
 
 #include "source/dsp.h"
-#include "source/ComplexNumber.h"
-#include "source/AudioSignalProcessor.h"
-#include "source/AudioSignalGenerator.h"
-#include "source/Biquad.h"
-#include "source/AudioFilter.h"
-#include "source/StaticWaveshaper.h"

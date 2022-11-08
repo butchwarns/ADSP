@@ -16,6 +16,3 @@
 #include "ADSP.h"
 
 #include "source/dsp.cpp"
-#include "source/Biquad.cpp"
-#include "source/AudioFilter.cpp"
-#include "source/StaticWaveshaper.cpp"
