@@ -1,4 +1,4 @@
-# Audio_DSP
+# ADSP
 
 ![Unit tests status badge](https://github.com/butchwarns/ADSP/actions/workflows/tests.yml/badge.svg)
 
