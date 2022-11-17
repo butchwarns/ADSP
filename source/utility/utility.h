@@ -20,6 +20,12 @@
   ==============================================================================
 */
 
+/**
+ * @file utility.h
+ *
+ * @brief Different kinds of dsp utility functions and useful constants.
+ */
+
 #pragma once
 
 #include <cmath>
@@ -28,6 +34,10 @@ namespace adsp
 {
     //==============================================================================
 
+    /**
+     * @brief
+     * Pi
+     */
     const double PI = 3.14159265358979323846264338327950288419716939937510582097494459230781640628620899;
     const double TWO_PI = 2.0 * 3.14159265358979323846264338327950288419716939937510582097494459230781640628620899;
     const double FRAC_ONE_PI = 1 / PI; // 1 / PI
@@ -43,7 +53,17 @@ namespace adsp
 
     //==============================================================================
 
-    // sgn(x)
+    /**
+     * @brief sgn(x)
+     *
+     * Signum function
+     *
+     * @tparam T    Integral or floating point numerical type
+     * @param val   Value to take the sign of
+     * @return 1 if val is positive,
+     * 0 if val is zero,
+     * -1 if val is negative
+     */
     template <typename T = double>
     inline int sgn(T val)
     {
@@ -53,7 +73,7 @@ namespace adsp
     //==============================================================================
     // Fix flaoting point underflows
 
-    // Fix possible float underflows
+    // Fix possible float underflows, useful when casting from double
     template <typename T = float>
     inline bool fixFloatUnderflow(T &value)
     {
