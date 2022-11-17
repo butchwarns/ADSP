@@ -1,2 +1,4 @@
 test/build/*
 !test/build/build_cmake.sh
+
+.vscode
