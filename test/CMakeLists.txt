@@ -11,7 +11,10 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 add_subdirectory(Catch2)
 
 # Add executable and link libraries
-add_executable(unit_tests test.cpp)
+add_executable(unit_tests 
+utility/utility.cpp
+)
+
 target_link_libraries(unit_tests PRIVATE Catch2::Catch2WithMain)
 
 # Discover tests from Catch2 within CTest (for GitHub actions)
