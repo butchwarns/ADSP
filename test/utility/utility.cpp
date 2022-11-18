@@ -41,26 +41,20 @@ TEST_CASE("Fix floating point underflow", "[utility]")
 {
     SECTION("Positive float underflow")
     {
-        float tooSmallF = adsp::SMALLEST_POSITIVE_FLOAT_VALUE / 2.0f;
-        double tooSmallD = adsp::SMALLEST_POSITIVE_FLOAT_VALUE / 2.0;
+        double tooSmall = adsp::MIN_FLOAT_VAL_POS / 2.0;
 
-        adsp::fixFloatUnderflow(tooSmallD);
-        adsp::fixFloatUnderflow(tooSmallF);
+        adsp::fixUnderflow(tooSmallF);
 
-        REQUIRE(tooSmallF == 0.0f);
-        REQUIRE(tooSmallD == 0.0);
+        REQUIRE(tooSmall == 0.0);
     }
 
-    SECTION("Negative flaot underflow")
+    SECTION("Negative float underflow")
     {
-        float tooSmallF = adsp::SMALLEST_NEGATIVE_FLOAT_VALUE / 2.0f;
-        double tooSmallD = adsp::SMALLEST_NEGATIVE_FLOAT_VALUE / 2.0;
+        double tooSmall = adsp::MIN_FLAOT_VAL_NEG / 2.0;
 
-        adsp::fixFloatUnderflow(tooSmallD);
-        adsp::fixFloatUnderflow(tooSmallF);
+        adsp::fixUnderflow(tooSmallD);
 
-        REQUIRE(tooSmallF == 0.0f);
-        REQUIRE(tooSmallD == 0.0);
+        REQUIRE(tooSmall == 0.0);
     }
 }
 

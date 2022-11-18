@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['pi_0',['PI',['../utility_8h.html#a6b062284c7e4d7f739105cac751e596a',1,'adsp']]]
+  ['bipolartounipolar_0',['bipolarToUnipolar',['../utility_8h.html#a7fac49195849529f9e9f9a6cb0a005d1',1,'adsp']]]
 ];

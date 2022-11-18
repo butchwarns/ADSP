@@ -86,114 +86,115 @@ $(function() {
 Functions</h2></td></tr>
 <tr class="memitem:a3168b9995b98f7a6e53900f1572d621e"><td class="memTemplParams" colspan="2">template&lt;typename T  = double&gt; </td></tr>
 <tr class="memitem:a3168b9995b98f7a6e53900f1572d621e"><td class="memTemplItemLeft" align="right" valign="top">int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="utility_8h.html#a3168b9995b98f7a6e53900f1572d621e">adsp::sgn</a> (T val)</td></tr>
-<tr class="memdesc:a3168b9995b98f7a6e53900f1572d621e"><td class="mdescLeft">&#160;</td><td class="mdescRight">sgn(x)  <a href="utility_8h.html#a3168b9995b98f7a6e53900f1572d621e">More...</a><br /></td></tr>
+<tr class="memdesc:a3168b9995b98f7a6e53900f1572d621e"><td class="mdescLeft">&#160;</td><td class="mdescRight">sgn(x), the standard signum function.  <a href="utility_8h.html#a3168b9995b98f7a6e53900f1572d621e">More...</a><br /></td></tr>
 <tr class="separator:a3168b9995b98f7a6e53900f1572d621e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad31e83674aad3919283b8bdfd824f847"><td class="memTemplParams" colspan="2"><a id="ad31e83674aad3919283b8bdfd824f847"></a>
-template&lt;typename T  = float&gt; </td></tr>
-<tr class="memitem:ad31e83674aad3919283b8bdfd824f847"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><b>adsp::fixFloatUnderflow</b> (T &amp;value)</td></tr>
-<tr class="separator:ad31e83674aad3919283b8bdfd824f847"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1a5f23603f7f62c0e0c5839126817632"><td class="memItemLeft" align="right" valign="top"><a id="a1a5f23603f7f62c0e0c5839126817632"></a>
-double&#160;</td><td class="memItemRight" valign="bottom"><b>adsp::clip</b> (double x, const double min=-1.0f, const double max=1.0f)</td></tr>
+<tr class="memitem:ae96bb17c28a879ed0e69c6e1e528ac65"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utility_8h.html#ae96bb17c28a879ed0e69c6e1e528ac65">adsp::fixUnderflow</a> (double &amp;d)</td></tr>
+<tr class="memdesc:ae96bb17c28a879ed0e69c6e1e528ac65"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fix possible float underflows before casting from double to avoid denormals.  <a href="utility_8h.html#ae96bb17c28a879ed0e69c6e1e528ac65">More...</a><br /></td></tr>
+<tr class="separator:ae96bb17c28a879ed0e69c6e1e528ac65"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a5f23603f7f62c0e0c5839126817632"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utility_8h.html#a1a5f23603f7f62c0e0c5839126817632">adsp::clip</a> (double x, const double min=-1.0f, const double max=1.0f)</td></tr>
+<tr class="memdesc:a1a5f23603f7f62c0e0c5839126817632"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clip value to given bounds.  <a href="utility_8h.html#a1a5f23603f7f62c0e0c5839126817632">More...</a><br /></td></tr>
 <tr class="separator:a1a5f23603f7f62c0e0c5839126817632"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afbdc53f1fdabf69ed276c3e2e37be6f9"><td class="memItemLeft" align="right" valign="top"><a id="afbdc53f1fdabf69ed276c3e2e37be6f9"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><b>adsp::clip</b> (float x, const float min=-1.0f, const float max=1.0f)</td></tr>
+<tr class="memitem:afbdc53f1fdabf69ed276c3e2e37be6f9"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utility_8h.html#afbdc53f1fdabf69ed276c3e2e37be6f9">adsp::clip</a> (float x, const float min=-1.0f, const float max=1.0f)</td></tr>
+<tr class="memdesc:afbdc53f1fdabf69ed276c3e2e37be6f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clip value to given bounds.  <a href="utility_8h.html#afbdc53f1fdabf69ed276c3e2e37be6f9">More...</a><br /></td></tr>
 <tr class="separator:afbdc53f1fdabf69ed276c3e2e37be6f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a75702ac6f8717f2b8fdc8a102eb5f41a"><td class="memItemLeft" align="right" valign="top"><a id="a75702ac6f8717f2b8fdc8a102eb5f41a"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>adsp::clipInPlace</b> (double &amp;x, const double min=-1.0, const double max=1.0)</td></tr>
+<tr class="memitem:a75702ac6f8717f2b8fdc8a102eb5f41a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utility_8h.html#a75702ac6f8717f2b8fdc8a102eb5f41a">adsp::clipInPlace</a> (double &amp;x, const double min=-1.0, const double max=1.0)</td></tr>
+<tr class="memdesc:a75702ac6f8717f2b8fdc8a102eb5f41a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clip value in place to given bounds.  <a href="utility_8h.html#a75702ac6f8717f2b8fdc8a102eb5f41a">More...</a><br /></td></tr>
 <tr class="separator:a75702ac6f8717f2b8fdc8a102eb5f41a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8f45f28556c92395449841fcf1395029"><td class="memItemLeft" align="right" valign="top"><a id="a8f45f28556c92395449841fcf1395029"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>adsp::clipInPlace</b> (float &amp;x, const float min=-1.0f, const float max=1.0f)</td></tr>
+<tr class="memitem:a8f45f28556c92395449841fcf1395029"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utility_8h.html#a8f45f28556c92395449841fcf1395029">adsp::clipInPlace</a> (float &amp;x, const float min=-1.0f, const float max=1.0f)</td></tr>
+<tr class="memdesc:a8f45f28556c92395449841fcf1395029"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clip value in place to given bounds.  <a href="utility_8h.html#a8f45f28556c92395449841fcf1395029">More...</a><br /></td></tr>
 <tr class="separator:a8f45f28556c92395449841fcf1395029"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a97b7151674fe979bbd560f8d9b0e6eff"><td class="memItemLeft" align="right" valign="top"><a id="a97b7151674fe979bbd560f8d9b0e6eff"></a>
-double&#160;</td><td class="memItemRight" valign="bottom"><b>adsp::pitchToFreq</b> (const double pitch)</td></tr>
+<tr class="memitem:a97b7151674fe979bbd560f8d9b0e6eff"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utility_8h.html#a97b7151674fe979bbd560f8d9b0e6eff">adsp::pitchToFreq</a> (const double pitch)</td></tr>
+<tr class="memdesc:a97b7151674fe979bbd560f8d9b0e6eff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert MIDI pitch (note number) to frequency.  <a href="utility_8h.html#a97b7151674fe979bbd560f8d9b0e6eff">More...</a><br /></td></tr>
 <tr class="separator:a97b7151674fe979bbd560f8d9b0e6eff"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6dd1677957ab7e16d6c99d97fdb5d1a5"><td class="memItemLeft" align="right" valign="top"><a id="a6dd1677957ab7e16d6c99d97fdb5d1a5"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><b>adsp::pitchToFreq</b> (const float pitch)</td></tr>
+<tr class="memitem:a6dd1677957ab7e16d6c99d97fdb5d1a5"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utility_8h.html#a6dd1677957ab7e16d6c99d97fdb5d1a5">adsp::pitchToFreq</a> (const float pitch)</td></tr>
+<tr class="memdesc:a6dd1677957ab7e16d6c99d97fdb5d1a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert MIDI pitch (note number) to frequency.  <a href="utility_8h.html#a6dd1677957ab7e16d6c99d97fdb5d1a5">More...</a><br /></td></tr>
 <tr class="separator:a6dd1677957ab7e16d6c99d97fdb5d1a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8d96494e154e535ed9a2811924bdc5ab"><td class="memItemLeft" align="right" valign="top"><a id="a8d96494e154e535ed9a2811924bdc5ab"></a>
-double&#160;</td><td class="memItemRight" valign="bottom"><b>adsp::freqToPitch</b> (const double freq)</td></tr>
+<tr class="memitem:a8d96494e154e535ed9a2811924bdc5ab"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utility_8h.html#a8d96494e154e535ed9a2811924bdc5ab">adsp::freqToPitch</a> (const double freq)</td></tr>
+<tr class="memdesc:a8d96494e154e535ed9a2811924bdc5ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert frequency to MIDI pitch (note number)  <a href="utility_8h.html#a8d96494e154e535ed9a2811924bdc5ab">More...</a><br /></td></tr>
 <tr class="separator:a8d96494e154e535ed9a2811924bdc5ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aea003fba334031d06c857e5d85ae50c9"><td class="memItemLeft" align="right" valign="top"><a id="aea003fba334031d06c857e5d85ae50c9"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><b>adsp::freqToPitch</b> (float freq)</td></tr>
+<tr class="memitem:aea003fba334031d06c857e5d85ae50c9"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utility_8h.html#aea003fba334031d06c857e5d85ae50c9">adsp::freqToPitch</a> (float freq)</td></tr>
+<tr class="memdesc:aea003fba334031d06c857e5d85ae50c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert frequency to MIDI pitch (note number)  <a href="utility_8h.html#aea003fba334031d06c857e5d85ae50c9">More...</a><br /></td></tr>
 <tr class="separator:aea003fba334031d06c857e5d85ae50c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7fac49195849529f9e9f9a6cb0a005d1"><td class="memTemplParams" colspan="2"><a id="a7fac49195849529f9e9f9a6cb0a005d1"></a>
-template&lt;typename T  = double&gt; </td></tr>
-<tr class="memitem:a7fac49195849529f9e9f9a6cb0a005d1"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><b>adsp::bipolarToUnipolar</b> (T x)</td></tr>
+<tr class="memitem:a7fac49195849529f9e9f9a6cb0a005d1"><td class="memTemplParams" colspan="2">template&lt;typename T  = double&gt; </td></tr>
+<tr class="memitem:a7fac49195849529f9e9f9a6cb0a005d1"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="utility_8h.html#a7fac49195849529f9e9f9a6cb0a005d1">adsp::bipolarToUnipolar</a> (T x)</td></tr>
+<tr class="memdesc:a7fac49195849529f9e9f9a6cb0a005d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert value from bipolar to unipolar range.  <a href="utility_8h.html#a7fac49195849529f9e9f9a6cb0a005d1">More...</a><br /></td></tr>
 <tr class="separator:a7fac49195849529f9e9f9a6cb0a005d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaa86daff1de096ba9b610f0c76797b68"><td class="memTemplParams" colspan="2"><a id="aaa86daff1de096ba9b610f0c76797b68"></a>
-template&lt;typename T  = double&gt; </td></tr>
-<tr class="memitem:aaa86daff1de096ba9b610f0c76797b68"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><b>adsp::unipolarToBipolar</b> (T x)</td></tr>
+<tr class="memitem:aaa86daff1de096ba9b610f0c76797b68"><td class="memTemplParams" colspan="2">template&lt;typename T  = double&gt; </td></tr>
+<tr class="memitem:aaa86daff1de096ba9b610f0c76797b68"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="utility_8h.html#aaa86daff1de096ba9b610f0c76797b68">adsp::unipolarToBipolar</a> (T x)</td></tr>
+<tr class="memdesc:aaa86daff1de096ba9b610f0c76797b68"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert value from unipolar to bipolar range.  <a href="utility_8h.html#aaa86daff1de096ba9b610f0c76797b68">More...</a><br /></td></tr>
 <tr class="separator:aaa86daff1de096ba9b610f0c76797b68"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ada81cd891219ee611eb7a406496c5a5a"><td class="memItemLeft" align="right" valign="top"><a id="ada81cd891219ee611eb7a406496c5a5a"></a>
-double&#160;</td><td class="memItemRight" valign="bottom"><b>adsp::rawGainTodB</b> (double gain)</td></tr>
+<tr class="memitem:ada81cd891219ee611eb7a406496c5a5a"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utility_8h.html#ada81cd891219ee611eb7a406496c5a5a">adsp::rawGainTodB</a> (double gain)</td></tr>
+<tr class="memdesc:ada81cd891219ee611eb7a406496c5a5a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert raw amplitude gain to decibels.  <a href="utility_8h.html#ada81cd891219ee611eb7a406496c5a5a">More...</a><br /></td></tr>
 <tr class="separator:ada81cd891219ee611eb7a406496c5a5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6df668dea6891f8636b8bc292cd7a422"><td class="memItemLeft" align="right" valign="top"><a id="a6df668dea6891f8636b8bc292cd7a422"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><b>adsp::rawGainTodB</b> (float gain)</td></tr>
+<tr class="memitem:a6df668dea6891f8636b8bc292cd7a422"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utility_8h.html#a6df668dea6891f8636b8bc292cd7a422">adsp::rawGainTodB</a> (float gain)</td></tr>
+<tr class="memdesc:a6df668dea6891f8636b8bc292cd7a422"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert raw amplitude gain to decibels.  <a href="utility_8h.html#a6df668dea6891f8636b8bc292cd7a422">More...</a><br /></td></tr>
 <tr class="separator:a6df668dea6891f8636b8bc292cd7a422"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9a4e07a0052471d0a5f41872820f73aa"><td class="memItemLeft" align="right" valign="top"><a id="a9a4e07a0052471d0a5f41872820f73aa"></a>
-double&#160;</td><td class="memItemRight" valign="bottom"><b>adsp::dbToRawGain</b> (double dB)</td></tr>
+<tr class="memitem:a9a4e07a0052471d0a5f41872820f73aa"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utility_8h.html#a9a4e07a0052471d0a5f41872820f73aa">adsp::dbToRawGain</a> (double dB)</td></tr>
+<tr class="memdesc:a9a4e07a0052471d0a5f41872820f73aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert from decibels to raw amplitude gain.  <a href="utility_8h.html#a9a4e07a0052471d0a5f41872820f73aa">More...</a><br /></td></tr>
 <tr class="separator:a9a4e07a0052471d0a5f41872820f73aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad4cd31223f5f9b6d0cd9f686aa32eb5d"><td class="memItemLeft" align="right" valign="top"><a id="ad4cd31223f5f9b6d0cd9f686aa32eb5d"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><b>adsp::dbToRawGain</b> (float dB)</td></tr>
+<tr class="memitem:ad4cd31223f5f9b6d0cd9f686aa32eb5d"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utility_8h.html#ad4cd31223f5f9b6d0cd9f686aa32eb5d">adsp::dbToRawGain</a> (float dB)</td></tr>
+<tr class="memdesc:ad4cd31223f5f9b6d0cd9f686aa32eb5d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert from decibels to raw amplitude gain.  <a href="utility_8h.html#ad4cd31223f5f9b6d0cd9f686aa32eb5d">More...</a><br /></td></tr>
 <tr class="separator:ad4cd31223f5f9b6d0cd9f686aa32eb5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4c596e4fa260b95b30be597602f31d51"><td class="memItemLeft" align="right" valign="top"><a id="a4c596e4fa260b95b30be597602f31d51"></a>
-double&#160;</td><td class="memItemRight" valign="bottom"><b>adsp::dbToRawGainOff</b> (const double dB, const double offdB)</td></tr>
+<tr class="memitem:a4c596e4fa260b95b30be597602f31d51"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utility_8h.html#a4c596e4fa260b95b30be597602f31d51">adsp::dbToRawGainOff</a> (const double dB, const double offdB)</td></tr>
+<tr class="memdesc:a4c596e4fa260b95b30be597602f31d51"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert from decibels to raw amplitude gain, clipping the signal when below a threshold.  <a href="utility_8h.html#a4c596e4fa260b95b30be597602f31d51">More...</a><br /></td></tr>
 <tr class="separator:a4c596e4fa260b95b30be597602f31d51"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae1730a70a8db5920eac3cedf7bbec902"><td class="memItemLeft" align="right" valign="top"><a id="ae1730a70a8db5920eac3cedf7bbec902"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><b>adsp::dbToRawGainOff</b> (const float dB, const float offdB)</td></tr>
+<tr class="memitem:ae1730a70a8db5920eac3cedf7bbec902"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utility_8h.html#ae1730a70a8db5920eac3cedf7bbec902">adsp::dbToRawGainOff</a> (const float dB, const float offdB)</td></tr>
+<tr class="memdesc:ae1730a70a8db5920eac3cedf7bbec902"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert from decibels to raw amplitude gain, clipping the signal when below a threshold.  <a href="utility_8h.html#ae1730a70a8db5920eac3cedf7bbec902">More...</a><br /></td></tr>
 <tr class="separator:ae1730a70a8db5920eac3cedf7bbec902"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a29ff9bd262bb9e786b80737294211471"><td class="memTemplParams" colspan="2"><a id="a29ff9bd262bb9e786b80737294211471"></a>
-template&lt;typename T  = double&gt; </td></tr>
-<tr class="memitem:a29ff9bd262bb9e786b80737294211471"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><b>adsp::linMap</b> (const T val, const T inMin, const T inMax, const T outMin, const T outMax)</td></tr>
+<tr class="memitem:a29ff9bd262bb9e786b80737294211471"><td class="memTemplParams" colspan="2">template&lt;typename T  = double&gt; </td></tr>
+<tr class="memitem:a29ff9bd262bb9e786b80737294211471"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="utility_8h.html#a29ff9bd262bb9e786b80737294211471">adsp::linMap</a> (const T val, const T inMin, const T inMax, const T outMin, const T outMax)</td></tr>
+<tr class="memdesc:a29ff9bd262bb9e786b80737294211471"><td class="mdescLeft">&#160;</td><td class="mdescRight">Linear mapping of one continuous range to another.  <a href="utility_8h.html#a29ff9bd262bb9e786b80737294211471">More...</a><br /></td></tr>
 <tr class="separator:a29ff9bd262bb9e786b80737294211471"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a664ff376106a6dbc3f6ec0b81c76451f"><td class="memTemplParams" colspan="2"><a id="a664ff376106a6dbc3f6ec0b81c76451f"></a>
-template&lt;typename T  = double&gt; </td></tr>
-<tr class="memitem:a664ff376106a6dbc3f6ec0b81c76451f"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><b>adsp::linMapNorm</b> (const T val, const T outMin, const T outMax)</td></tr>
+<tr class="memitem:a664ff376106a6dbc3f6ec0b81c76451f"><td class="memTemplParams" colspan="2">template&lt;typename T  = double&gt; </td></tr>
+<tr class="memitem:a664ff376106a6dbc3f6ec0b81c76451f"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="utility_8h.html#a664ff376106a6dbc3f6ec0b81c76451f">adsp::linMapNorm</a> (const T val, const T outMin, const T outMax)</td></tr>
+<tr class="memdesc:a664ff376106a6dbc3f6ec0b81c76451f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Linear mapping of value in [-1.0, 1.0] to another continuous range.  <a href="utility_8h.html#a664ff376106a6dbc3f6ec0b81c76451f">More...</a><br /></td></tr>
 <tr class="separator:a664ff376106a6dbc3f6ec0b81c76451f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a90fe5a958e267e871b3b69f4d217d43d"><td class="memItemLeft" align="right" valign="top"><a id="a90fe5a958e267e871b3b69f4d217d43d"></a>
-double&#160;</td><td class="memItemRight" valign="bottom"><b>adsp::skewNormalized</b> (const double NormVal, const double skew)</td></tr>
+<tr class="memitem:a90fe5a958e267e871b3b69f4d217d43d"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utility_8h.html#a90fe5a958e267e871b3b69f4d217d43d">adsp::skewNormalized</a> (const double NormVal, const double skew)</td></tr>
+<tr class="memdesc:a90fe5a958e267e871b3b69f4d217d43d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Map a value in [0.0, 1.0] to the same interval with a skew factor.  <a href="utility_8h.html#a90fe5a958e267e871b3b69f4d217d43d">More...</a><br /></td></tr>
 <tr class="separator:a90fe5a958e267e871b3b69f4d217d43d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad1119ef9ec07a89e02a6b90f404522e3"><td class="memItemLeft" align="right" valign="top"><a id="ad1119ef9ec07a89e02a6b90f404522e3"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><b>adsp::skewNormalized</b> (const float NormVal, const float skew)</td></tr>
+<tr class="memitem:ad1119ef9ec07a89e02a6b90f404522e3"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utility_8h.html#ad1119ef9ec07a89e02a6b90f404522e3">adsp::skewNormalized</a> (const float NormVal, const float skew)</td></tr>
+<tr class="memdesc:ad1119ef9ec07a89e02a6b90f404522e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Map a value in [0.0, 1.0] to the same interval with a skew factor.  <a href="utility_8h.html#ad1119ef9ec07a89e02a6b90f404522e3">More...</a><br /></td></tr>
 <tr class="separator:ad1119ef9ec07a89e02a6b90f404522e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a99ccfd8e03dc41d666be5c69ebc100b1"><td class="memTemplParams" colspan="2"><a id="a99ccfd8e03dc41d666be5c69ebc100b1"></a>
-template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a99ccfd8e03dc41d666be5c69ebc100b1"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><b>adsp::interpolateLinear</b> (const T a, const T b, const T t)</td></tr>
-<tr class="separator:a99ccfd8e03dc41d666be5c69ebc100b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5501bd4f29ebcc566859fc57e3314b24"><td class="memItemLeft" align="right" valign="top"><a id="a5501bd4f29ebcc566859fc57e3314b24"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><b>adsp::fastLog2</b> (float val)</td></tr>
+<tr class="memitem:a5501bd4f29ebcc566859fc57e3314b24"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utility_8h.html#a5501bd4f29ebcc566859fc57e3314b24">adsp::fastLog2</a> (float val)</td></tr>
+<tr class="memdesc:a5501bd4f29ebcc566859fc57e3314b24"><td class="mdescLeft">&#160;</td><td class="mdescRight">Faster (and less precise) log2 function.  <a href="utility_8h.html#a5501bd4f29ebcc566859fc57e3314b24">More...</a><br /></td></tr>
 <tr class="separator:a5501bd4f29ebcc566859fc57e3314b24"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a6b062284c7e4d7f739105cac751e596a"><td class="memItemLeft" align="right" valign="top"><a id="a6b062284c7e4d7f739105cac751e596a"></a>
-const double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utility_8h.html#a6b062284c7e4d7f739105cac751e596a">adsp::PI</a> = 3.14159265358979323846264338327950288419716939937510582097494459230781640628620899</td></tr>
-<tr class="memdesc:a6b062284c7e4d7f739105cac751e596a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pi. <br /></td></tr>
-<tr class="separator:a6b062284c7e4d7f739105cac751e596a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9f61e3d846ef13d87225f3e224c752df"><td class="memItemLeft" align="right" valign="top"><a id="a9f61e3d846ef13d87225f3e224c752df"></a>
-const double&#160;</td><td class="memItemRight" valign="bottom"><b>adsp::TWO_PI</b> = 2.0 * 3.14159265358979323846264338327950288419716939937510582097494459230781640628620899</td></tr>
-<tr class="separator:a9f61e3d846ef13d87225f3e224c752df"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa38f09021c74df8353c1c6a59307a327"><td class="memItemLeft" align="right" valign="top"><a id="aa38f09021c74df8353c1c6a59307a327"></a>
-const double&#160;</td><td class="memItemRight" valign="bottom"><b>adsp::FRAC_ONE_PI</b> = 1 / PI</td></tr>
-<tr class="separator:aa38f09021c74df8353c1c6a59307a327"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0ad6e3dbe37589051f2a810506992d34"><td class="memItemLeft" align="right" valign="top"><a id="a0ad6e3dbe37589051f2a810506992d34"></a>
-const double&#160;</td><td class="memItemRight" valign="bottom"><b>adsp::SQRT_TWO</b> = pow(2.0, 0.5)</td></tr>
-<tr class="separator:a0ad6e3dbe37589051f2a810506992d34"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a38062d135b769e8191b7c0356aed2fe3"><td class="memItemLeft" align="right" valign="top"><a id="a38062d135b769e8191b7c0356aed2fe3"></a>
-const double&#160;</td><td class="memItemRight" valign="bottom"><b>adsp::FRAC_ONE_SQRT_TWO</b> = pow(2.0, -0.5)</td></tr>
-<tr class="separator:a38062d135b769e8191b7c0356aed2fe3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a224179030fda2c6ee8514744ee556f81"><td class="memItemLeft" align="right" valign="top"><a id="a224179030fda2c6ee8514744ee556f81"></a>
-const double&#160;</td><td class="memItemRight" valign="bottom"><b>adsp::SMALLEST_POSITIVE_FLOAT_VALUE</b> = 1.175494351e-38</td></tr>
-<tr class="separator:a224179030fda2c6ee8514744ee556f81"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a84cb6ac8ce45355ad4f746454561957d"><td class="memItemLeft" align="right" valign="top"><a id="a84cb6ac8ce45355ad4f746454561957d"></a>
-const double&#160;</td><td class="memItemRight" valign="bottom"><b>adsp::SMALLEST_NEGATIVE_FLOAT_VALUE</b> = -1.175494351e-38</td></tr>
-<tr class="separator:a84cb6ac8ce45355ad4f746454561957d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a413cd0e5563d4886e57bbadd24c2dbb7"><td class="memItemLeft" align="right" valign="top"><a id="a413cd0e5563d4886e57bbadd24c2dbb7"></a>
-const double&#160;</td><td class="memItemRight" valign="bottom"><b>adsp::MIN_FILTER_FREQUENCY</b> = 20.0</td></tr>
-<tr class="separator:a413cd0e5563d4886e57bbadd24c2dbb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a20a420b15d3d8788b4f46f5a6085689e"><td class="memItemLeft" align="right" valign="top"><a id="a20a420b15d3d8788b4f46f5a6085689e"></a>
-const double&#160;</td><td class="memItemRight" valign="bottom"><b>adsp::MAX_FILTER_FREQUENCY</b> = 20480.0</td></tr>
-<tr class="separator:a20a420b15d3d8788b4f46f5a6085689e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a924c6d212386e2cba9fa98f5b545faa3"><td class="memItemLeft" align="right" valign="top">constexpr double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utility_8h.html#a924c6d212386e2cba9fa98f5b545faa3">adsp::PI</a></td></tr>
+<tr class="memdesc:a924c6d212386e2cba9fa98f5b545faa3"><td class="mdescLeft">&#160;</td><td class="mdescRight"><img class="formulaInl" alt="$ \pi $" src="form_0.png" width="9" height="6"/>  <a href="utility_8h.html#a924c6d212386e2cba9fa98f5b545faa3">More...</a><br /></td></tr>
+<tr class="separator:a924c6d212386e2cba9fa98f5b545faa3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a25e28d6122d1d24b5233edcb5a29fffa"><td class="memItemLeft" align="right" valign="top">constexpr double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utility_8h.html#a25e28d6122d1d24b5233edcb5a29fffa">adsp::TWO_PI</a></td></tr>
+<tr class="memdesc:a25e28d6122d1d24b5233edcb5a29fffa"><td class="mdescLeft">&#160;</td><td class="mdescRight"><img class="formulaInl" alt="$ 2\pi $" src="form_1.png" width="14" height="9"/>  <a href="utility_8h.html#a25e28d6122d1d24b5233edcb5a29fffa">More...</a><br /></td></tr>
+<tr class="separator:a25e28d6122d1d24b5233edcb5a29fffa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2487810cfa154859a8884ed98c9da403"><td class="memItemLeft" align="right" valign="top"><a id="a2487810cfa154859a8884ed98c9da403"></a>
+constexpr double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utility_8h.html#a2487810cfa154859a8884ed98c9da403">adsp::FRAC_ONE_PI</a> = 1.0 / PI</td></tr>
+<tr class="memdesc:a2487810cfa154859a8884ed98c9da403"><td class="mdescLeft">&#160;</td><td class="mdescRight"><img class="formulaInl" alt="$ 1/\pi $" src="form_2.png" width="20" height="14"/> <br /></td></tr>
+<tr class="separator:a2487810cfa154859a8884ed98c9da403"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4be58af5b503a050f4b5429dd319ded0"><td class="memItemLeft" align="right" valign="top"><a id="a4be58af5b503a050f4b5429dd319ded0"></a>
+constexpr double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utility_8h.html#a4be58af5b503a050f4b5429dd319ded0">adsp::SQRT_TWO</a> = pow(2.0, 0.5)</td></tr>
+<tr class="memdesc:a4be58af5b503a050f4b5429dd319ded0"><td class="mdescLeft">&#160;</td><td class="mdescRight"><img class="formulaInl" alt="$ \sqrt{2} $" src="form_3.png" width="16" height="14"/> <br /></td></tr>
+<tr class="separator:a4be58af5b503a050f4b5429dd319ded0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d9b8a866f31ee445e5b86cff972822b"><td class="memItemLeft" align="right" valign="top"><a id="a8d9b8a866f31ee445e5b86cff972822b"></a>
+constexpr double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utility_8h.html#a8d9b8a866f31ee445e5b86cff972822b">adsp::FRAC_ONE_SQRT_TWO</a> = pow(2.0, -0.5)</td></tr>
+<tr class="memdesc:a8d9b8a866f31ee445e5b86cff972822b"><td class="mdescLeft">&#160;</td><td class="mdescRight"><img class="formulaInl" alt="$ 1/\sqrt{2} $" src="form_4.png" width="29" height="15"/> <br /></td></tr>
+<tr class="separator:a8d9b8a866f31ee445e5b86cff972822b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3fcd671ba5dd22838eb77ef05c7a79d"><td class="memItemLeft" align="right" valign="top"><a id="ad3fcd671ba5dd22838eb77ef05c7a79d"></a>
+constexpr double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utility_8h.html#ad3fcd671ba5dd22838eb77ef05c7a79d">adsp::MIN_FLOAT_VAL_POS</a> = 1.175494351e-38</td></tr>
+<tr class="memdesc:ad3fcd671ba5dd22838eb77ef05c7a79d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Smallest positive float value. <br /></td></tr>
+<tr class="separator:ad3fcd671ba5dd22838eb77ef05c7a79d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a37dd5af172114816f2b7e848bf18d4ac"><td class="memItemLeft" align="right" valign="top"><a id="a37dd5af172114816f2b7e848bf18d4ac"></a>
+constexpr double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utility_8h.html#a37dd5af172114816f2b7e848bf18d4ac">adsp::MIN_FLOAT_VAL_NEG</a> = -1.175494351e-38</td></tr>
+<tr class="memdesc:a37dd5af172114816f2b7e848bf18d4ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Smallest negative float value. <br /></td></tr>
+<tr class="separator:a37dd5af172114816f2b7e848bf18d4ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa666e69696ab5d638626861c708df783"><td class="memItemLeft" align="right" valign="top"><a id="aa666e69696ab5d638626861c708df783"></a>
+constexpr double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utility_8h.html#aa666e69696ab5d638626861c708df783">adsp::MIN_FILTER_FREQ</a> = 20.0</td></tr>
+<tr class="memdesc:aa666e69696ab5d638626861c708df783"><td class="mdescLeft">&#160;</td><td class="mdescRight">Minimum filter cutoff frequency: 20 Hz (lower end of human hearing) <br /></td></tr>
+<tr class="separator:aa666e69696ab5d638626861c708df783"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3145af7a0ccbe06a83696bcd307bf397"><td class="memItemLeft" align="right" valign="top"><a id="a3145af7a0ccbe06a83696bcd307bf397"></a>
+constexpr double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utility_8h.html#a3145af7a0ccbe06a83696bcd307bf397">adsp::MAX_FILTER_FREQ</a> = 20480.0</td></tr>
+<tr class="memdesc:a3145af7a0ccbe06a83696bcd307bf397"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum filter cutoff frequency: 20480 Hz (10 octaves above 20 Hz) <br /></td></tr>
+<tr class="separator:a3145af7a0ccbe06a83696bcd307bf397"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Different kinds of dsp utility functions and useful constants. </p>
@@ -226,11 +227,10 @@ template&lt;typename T  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>sgn(x) </p>
-<p>Signum function</p>
+<p>sgn(x), the standard signum function. </p>
 <dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
-    <tr><td class="paramname">T</td><td>Integral or floating point numerical type </td></tr>
+    <tr><td class="paramname">T</td><td>Integral or floating point type </td></tr>
   </table>
   </dd>
 </dl>
@@ -242,11 +242,1196 @@ template&lt;typename T  = double&gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>1 if val is positive, 0 if val is zero, -1 if val is negative </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="utility_8h_source.html#l00068">68</a> of file <a class="el" href="utility_8h_source.html">utility.h</a>.</p>
-<div class="fragment"><div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    {</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;        <span class="keywordflow">return</span> (<span class="keyword">static_cast&lt;</span>T<span class="keyword">&gt;</span>(0) &lt; val) - (val &lt; static_cast&lt;T&gt;(0));</div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    }</div>
+<p class="definition">Definition at line <a class="el" href="utility_8h_source.html#l00097">97</a> of file <a class="el" href="utility_8h_source.html">utility.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;                      {</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;    <span class="keywordflow">return</span> (<span class="keyword">static_cast&lt;</span>T<span class="keyword">&gt;</span>(0) &lt; val) - (val &lt; static_cast&lt;T&gt;(0));</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;}</div>
 </div><!-- fragment -->
+</div>
+</div>
+<a id="ae96bb17c28a879ed0e69c6e1e528ac65"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae96bb17c28a879ed0e69c6e1e528ac65">&#9670;&nbsp;</a></span>fixUnderflow()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool adsp::fixUnderflow </td>
+          <td>(</td>
+          <td class="paramtype">double &amp;&#160;</td>
+          <td class="paramname"><em>d</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Fix possible float underflows before casting from double to avoid denormals. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">d</td><td>double value to be checked for possible underflow </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true if underflow was fixed </dd>
+<dd>
+false if no underflow occured </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="utility_8h_source.html#l00110">110</a> of file <a class="el" href="utility_8h_source.html">utility.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;                                    {</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;    <span class="comment">// Positive underflow</span></div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;    <span class="keywordflow">if</span> (d &gt; 0.0 &amp;&amp; d &lt; MIN_FLOAT_VAL_POS) {</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;        <span class="comment">// Fix to zero</span></div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;        d = 0.0;</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;    }</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;    <span class="comment">// Negative underflow</span></div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (d &lt; 0.0 &amp;&amp; d &gt; MIN_FLOAT_VAL_NEG) {</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;        <span class="comment">// Fix to zero</span></div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;        d = 0.0;</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;    }</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160; </div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a1a5f23603f7f62c0e0c5839126817632"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1a5f23603f7f62c0e0c5839126817632">&#9670;&nbsp;</a></span>clip() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double adsp::clip </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const double&#160;</td>
+          <td class="paramname"><em>min</em> = <code>-1.0f</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const double&#160;</td>
+          <td class="paramname"><em>max</em> = <code>1.0f</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Clip value to given bounds. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">x</td><td>Value to be bounded </td></tr>
+    <tr><td class="paramname">min</td><td>Lower bound, defaults to -1.0 </td></tr>
+    <tr><td class="paramname">max</td><td>Upper bound, defaults to 1.0 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Clipped value </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="utility_8h_source.html#l00138">138</a> of file <a class="el" href="utility_8h_source.html">utility.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;                                            {</div>
+<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;    <span class="comment">// Clip upper bound</span></div>
+<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;    x = fmin(max, x);</div>
+<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160; </div>
+<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;    <span class="comment">// Clip lower bound</span></div>
+<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;    x = fmax(min, x);</div>
+<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160; </div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;    <span class="keywordflow">return</span> x;</div>
+<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="afbdc53f1fdabf69ed276c3e2e37be6f9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afbdc53f1fdabf69ed276c3e2e37be6f9">&#9670;&nbsp;</a></span>clip() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float adsp::clip </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const float&#160;</td>
+          <td class="paramname"><em>min</em> = <code>-1.0f</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const float&#160;</td>
+          <td class="paramname"><em>max</em> = <code>1.0f</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Clip value to given bounds. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">x</td><td>Value to be bounded </td></tr>
+    <tr><td class="paramname">min</td><td>Lower bound, defaults to -1.0 </td></tr>
+    <tr><td class="paramname">max</td><td>Upper bound, defaults to 1.0 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Clipped value </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="utility_8h_source.html#l00157">157</a> of file <a class="el" href="utility_8h_source.html">utility.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;                                                                            {</div>
+<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;    <span class="comment">// Clip upper bound</span></div>
+<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;    x = fminf(max, x);</div>
+<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160; </div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;    <span class="comment">// Clip lower bound</span></div>
+<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;    x = fmaxf(min, x);</div>
+<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160; </div>
+<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;    <span class="keywordflow">return</span> x;</div>
+<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a75702ac6f8717f2b8fdc8a102eb5f41a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a75702ac6f8717f2b8fdc8a102eb5f41a">&#9670;&nbsp;</a></span>clipInPlace() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void adsp::clipInPlace </td>
+          <td>(</td>
+          <td class="paramtype">double &amp;&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const double&#160;</td>
+          <td class="paramname"><em>min</em> = <code>-1.0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const double&#160;</td>
+          <td class="paramname"><em>max</em> = <code>1.0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Clip value in place to given bounds. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">x</td><td>Value to be bounded </td></tr>
+    <tr><td class="paramname">min</td><td>Lower bound, defaults to -1.0 </td></tr>
+    <tr><td class="paramname">max</td><td>Upper bound, defaults to 1.0 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="utility_8h_source.html#l00174">174</a> of file <a class="el" href="utility_8h_source.html">utility.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;                                                {</div>
+<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;    <span class="comment">// Clip upper bound</span></div>
+<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;    x = fmin(max, x);</div>
+<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160; </div>
+<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;    <span class="comment">// Clip lower bound</span></div>
+<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;    x = fmax(min, x);</div>
+<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a8f45f28556c92395449841fcf1395029"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8f45f28556c92395449841fcf1395029">&#9670;&nbsp;</a></span>clipInPlace() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void adsp::clipInPlace </td>
+          <td>(</td>
+          <td class="paramtype">float &amp;&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const float&#160;</td>
+          <td class="paramname"><em>min</em> = <code>-1.0f</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const float&#160;</td>
+          <td class="paramname"><em>max</em> = <code>1.0f</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Clip value in place to given bounds. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">x</td><td>Value to be bounded </td></tr>
+    <tr><td class="paramname">min</td><td>Lower bound, defaults to -1.0 </td></tr>
+    <tr><td class="paramname">max</td><td>Upper bound, defaults to 1.0 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="utility_8h_source.html#l00190">190</a> of file <a class="el" href="utility_8h_source.html">utility.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;                                                {</div>
+<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;    <span class="comment">// Clip upper bound</span></div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;    x = fminf(max, x);</div>
+<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160; </div>
+<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;    <span class="comment">// Clip lower bound</span></div>
+<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;    x = fmaxf(min, x);</div>
+<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a97b7151674fe979bbd560f8d9b0e6eff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a97b7151674fe979bbd560f8d9b0e6eff">&#9670;&nbsp;</a></span>pitchToFreq() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double adsp::pitchToFreq </td>
+          <td>(</td>
+          <td class="paramtype">const double&#160;</td>
+          <td class="paramname"><em>pitch</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Convert MIDI pitch (note number) to frequency. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pitch</td><td>MIDI note number to convert (works for non-integer numbers!) </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Corresponding frequency </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="utility_8h_source.html#l00208">208</a> of file <a class="el" href="utility_8h_source.html">utility.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;                                              {</div>
+<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;    <span class="comment">// Pitch 69 is A4:440.0 Hz</span></div>
+<div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;    <span class="keywordflow">return</span> 440.0 * pow(2.0, (pitch - 69.0) / 12.0);</div>
+<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a6dd1677957ab7e16d6c99d97fdb5d1a5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6dd1677957ab7e16d6c99d97fdb5d1a5">&#9670;&nbsp;</a></span>pitchToFreq() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float adsp::pitchToFreq </td>
+          <td>(</td>
+          <td class="paramtype">const float&#160;</td>
+          <td class="paramname"><em>pitch</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Convert MIDI pitch (note number) to frequency. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pitch</td><td>MIDI note number to convert (works for non-integer numbers!) </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Corresponding frequency </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="utility_8h_source.html#l00219">219</a> of file <a class="el" href="utility_8h_source.html">utility.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;                                            {</div>
+<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;    <span class="comment">// Pitch 69 is A4:440.0 Hz</span></div>
+<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;    <span class="keywordflow">return</span> 440.0f * powf(2.0f, (pitch - 69.0f) / 12.0f);</div>
+<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a8d96494e154e535ed9a2811924bdc5ab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8d96494e154e535ed9a2811924bdc5ab">&#9670;&nbsp;</a></span>freqToPitch() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double adsp::freqToPitch </td>
+          <td>(</td>
+          <td class="paramtype">const double&#160;</td>
+          <td class="paramname"><em>freq</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Convert frequency to MIDI pitch (note number) </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">freq</td><td>Frequency to convert </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Corresponding MIDI pitch </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="utility_8h_source.html#l00230">230</a> of file <a class="el" href="utility_8h_source.html">utility.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;                                             {</div>
+<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;    <span class="keywordflow">return</span> 69.0 + 12.0 * log2(freq / 440.0);</div>
+<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="aea003fba334031d06c857e5d85ae50c9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aea003fba334031d06c857e5d85ae50c9">&#9670;&nbsp;</a></span>freqToPitch() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float adsp::freqToPitch </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>freq</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Convert frequency to MIDI pitch (note number) </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">freq</td><td>Frequency to convert </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Corresponding MIDI pitch </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="utility_8h_source.html#l00240">240</a> of file <a class="el" href="utility_8h_source.html">utility.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;                                     {</div>
+<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;    <span class="keywordflow">return</span> 69.0f + 12.0f * log2f(freq / 440.0f);</div>
+<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a7fac49195849529f9e9f9a6cb0a005d1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7fac49195849529f9e9f9a6cb0a005d1">&#9670;&nbsp;</a></span>bipolarToUnipolar()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T  = double&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">T adsp::bipolarToUnipolar </td>
+          <td>(</td>
+          <td class="paramtype">T&#160;</td>
+          <td class="paramname"><em>x</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Convert value from bipolar to unipolar range. </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">T</td><td>float or double </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">x</td><td>Bipolar value in range [-1.0, 1.0] </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Corresponding unipolar value in range [0.0, 1.0] </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="utility_8h_source.html#l00255">255</a> of file <a class="el" href="utility_8h_source.html">utility.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;                                {</div>
+<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">static_cast&lt;</span>T<span class="keyword">&gt;</span>(0.5) * x + <span class="keyword">static_cast&lt;</span>T<span class="keyword">&gt;</span>(0.5);</div>
+<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="aaa86daff1de096ba9b610f0c76797b68"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaa86daff1de096ba9b610f0c76797b68">&#9670;&nbsp;</a></span>unipolarToBipolar()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T  = double&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">T adsp::unipolarToBipolar </td>
+          <td>(</td>
+          <td class="paramtype">T&#160;</td>
+          <td class="paramname"><em>x</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Convert value from unipolar to bipolar range. </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">T</td><td>float or double </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">x</td><td>Unipolar value in range [0.0, 1.0] </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Corresponding bipolar value in range [-1.0, 1.0] </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="utility_8h_source.html#l00267">267</a> of file <a class="el" href="utility_8h_source.html">utility.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;                                {</div>
+<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;    <span class="keywordflow">return</span> (x - <span class="keyword">static_cast&lt;</span>T<span class="keyword">&gt;</span>(0.5)) * <span class="keyword">static_cast&lt;</span>T<span class="keyword">&gt;</span>(2.0);</div>
+<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="ada81cd891219ee611eb7a406496c5a5a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ada81cd891219ee611eb7a406496c5a5a">&#9670;&nbsp;</a></span>rawGainTodB() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double adsp::rawGainTodB </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>gain</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Convert raw amplitude gain to decibels. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">gain</td><td>Raw amplitude gain factor [1] </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Corresponding decibel value [dB] </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="utility_8h_source.html#l00280">280</a> of file <a class="el" href="utility_8h_source.html">utility.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;{ <span class="keywordflow">return</span> 20.0 * log10(gain); }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a6df668dea6891f8636b8bc292cd7a422"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6df668dea6891f8636b8bc292cd7a422">&#9670;&nbsp;</a></span>rawGainTodB() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float adsp::rawGainTodB </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>gain</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Convert raw amplitude gain to decibels. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">gain</td><td>Raw amplitude gain factor [1] </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Corresponding decibel value [dB] </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="utility_8h_source.html#l00288">288</a> of file <a class="el" href="utility_8h_source.html">utility.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;{ <span class="keywordflow">return</span> 20.0f * log10f(gain); }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a9a4e07a0052471d0a5f41872820f73aa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9a4e07a0052471d0a5f41872820f73aa">&#9670;&nbsp;</a></span>dbToRawGain() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double adsp::dbToRawGain </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>dB</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Convert from decibels to raw amplitude gain. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">dB</td><td>Value to convert [dB] </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Corresponding amplitude gain factor [1] </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="utility_8h_source.html#l00296">296</a> of file <a class="el" href="utility_8h_source.html">utility.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;{ <span class="keywordflow">return</span> pow(10.0, dB / 20.0); }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="ad4cd31223f5f9b6d0cd9f686aa32eb5d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad4cd31223f5f9b6d0cd9f686aa32eb5d">&#9670;&nbsp;</a></span>dbToRawGain() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float adsp::dbToRawGain </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>dB</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Convert from decibels to raw amplitude gain. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">dB</td><td>Value to convert [dB] </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Corresponding amplitude gain factor [1] </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="utility_8h_source.html#l00304">304</a> of file <a class="el" href="utility_8h_source.html">utility.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;{ <span class="keywordflow">return</span> powf(10.0f, dB / 20.0f); }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a4c596e4fa260b95b30be597602f31d51"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4c596e4fa260b95b30be597602f31d51">&#9670;&nbsp;</a></span>dbToRawGainOff() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double adsp::dbToRawGainOff </td>
+          <td>(</td>
+          <td class="paramtype">const double&#160;</td>
+          <td class="paramname"><em>dB</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const double&#160;</td>
+          <td class="paramname"><em>offdB</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Convert from decibels to raw amplitude gain, clipping the signal when below a threshold. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">dB</td><td>Value to convert [dB] </td></tr>
+    <tr><td class="paramname">offdB</td><td>Off-threshold [dB] </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Corresponding amplitude gain factor [1] </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="utility_8h_source.html#l00313">313</a> of file <a class="el" href="utility_8h_source.html">utility.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;                                                                  {</div>
+<div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;    <span class="keywordflow">return</span> (dB &gt;= offdB) * pow(10.0, dB / 20.0);</div>
+<div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="ae1730a70a8db5920eac3cedf7bbec902"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae1730a70a8db5920eac3cedf7bbec902">&#9670;&nbsp;</a></span>dbToRawGainOff() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float adsp::dbToRawGainOff </td>
+          <td>(</td>
+          <td class="paramtype">const float&#160;</td>
+          <td class="paramname"><em>dB</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const float&#160;</td>
+          <td class="paramname"><em>offdB</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Convert from decibels to raw amplitude gain, clipping the signal when below a threshold. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">dB</td><td>Value to convert [dB] </td></tr>
+    <tr><td class="paramname">offdB</td><td>Off-threshold [dB] </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Corresponding amplitude gain factor [1] </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="utility_8h_source.html#l00324">324</a> of file <a class="el" href="utility_8h_source.html">utility.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;                                                               {</div>
+<div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;    <span class="keywordflow">return</span> (dB &gt;= offdB) * powf(10.0f, dB / 20.0f);</div>
+<div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a29ff9bd262bb9e786b80737294211471"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a29ff9bd262bb9e786b80737294211471">&#9670;&nbsp;</a></span>linMap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T  = double&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">T adsp::linMap </td>
+          <td>(</td>
+          <td class="paramtype">const T&#160;</td>
+          <td class="paramname"><em>val</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const T&#160;</td>
+          <td class="paramname"><em>inMin</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const T&#160;</td>
+          <td class="paramname"><em>inMax</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const T&#160;</td>
+          <td class="paramname"><em>outMin</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const T&#160;</td>
+          <td class="paramname"><em>outMax</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Linear mapping of one continuous range to another. </p>
+<p>(Linear interpolation)</p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">T</td><td>float or double </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">val</td><td>Value to map </td></tr>
+    <tr><td class="paramname">inMin</td><td>Input lower bound </td></tr>
+    <tr><td class="paramname">inMax</td><td>Input upper bound </td></tr>
+    <tr><td class="paramname">outMin</td><td>Output lower bound </td></tr>
+    <tr><td class="paramname">outMax</td><td>Output range upper bound </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Mapped value </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="utility_8h_source.html#l00345">345</a> of file <a class="el" href="utility_8h_source.html">utility.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l00346"></a><span class="lineno">  346</span>&#160;                                {</div>
+<div class="line"><a name="l00347"></a><span class="lineno">  347</span>&#160;    <span class="keywordflow">return</span> (val - inMin) * (outMax - outMin) / (inMax - inMin) + outMin;</div>
+<div class="line"><a name="l00348"></a><span class="lineno">  348</span>&#160;}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a664ff376106a6dbc3f6ec0b81c76451f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a664ff376106a6dbc3f6ec0b81c76451f">&#9670;&nbsp;</a></span>linMapNorm()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T  = double&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">T adsp::linMapNorm </td>
+          <td>(</td>
+          <td class="paramtype">const T&#160;</td>
+          <td class="paramname"><em>val</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const T&#160;</td>
+          <td class="paramname"><em>outMin</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const T&#160;</td>
+          <td class="paramname"><em>outMax</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Linear mapping of value in [-1.0, 1.0] to another continuous range. </p>
+<p>(Linear interpolation)</p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">T</td><td>float or double </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">val</td><td>Normalised value to map </td></tr>
+    <tr><td class="paramname">inMin</td><td>Input lower bound </td></tr>
+    <tr><td class="paramname">inMax</td><td>Input upper bound </td></tr>
+    <tr><td class="paramname">outMin</td><td>Output lower bound </td></tr>
+    <tr><td class="paramname">outMax</td><td>Output upper bound </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Mapped value </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="utility_8h_source.html#l00364">364</a> of file <a class="el" href="utility_8h_source.html">utility.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l00364"></a><span class="lineno">  364</span>&#160;                                                                 {</div>
+<div class="line"><a name="l00365"></a><span class="lineno">  365</span>&#160;    <span class="keywordflow">return</span> val * (outMax - outMin) + outMin;</div>
+<div class="line"><a name="l00366"></a><span class="lineno">  366</span>&#160;}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a90fe5a958e267e871b3b69f4d217d43d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a90fe5a958e267e871b3b69f4d217d43d">&#9670;&nbsp;</a></span>skewNormalized() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double adsp::skewNormalized </td>
+          <td>(</td>
+          <td class="paramtype">const double&#160;</td>
+          <td class="paramname"><em>NormVal</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const double&#160;</td>
+          <td class="paramname"><em>skew</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Map a value in [0.0, 1.0] to the same interval with a skew factor. </p>
+<p>skew = 1 gives a linear map <br  />
+ skew in [0.0, 1.0[ gives more resolution in the lower range <br  />
+ skew in [1.0, INF[ gives more resolution in the upper range <br  />
+</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">NormVal</td><td>Normalised value to map </td></tr>
+    <tr><td class="paramname">skew</td><td>Skew factor </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Mapped value </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="utility_8h_source.html#l00379">379</a> of file <a class="el" href="utility_8h_source.html">utility.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l00379"></a><span class="lineno">  379</span>&#160;                                                                      {</div>
+<div class="line"><a name="l00380"></a><span class="lineno">  380</span>&#160;    <span class="keywordflow">return</span> pow(NormVal, 1.0 / skew);</div>
+<div class="line"><a name="l00381"></a><span class="lineno">  381</span>&#160;}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="ad1119ef9ec07a89e02a6b90f404522e3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad1119ef9ec07a89e02a6b90f404522e3">&#9670;&nbsp;</a></span>skewNormalized() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float adsp::skewNormalized </td>
+          <td>(</td>
+          <td class="paramtype">const float&#160;</td>
+          <td class="paramname"><em>NormVal</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const float&#160;</td>
+          <td class="paramname"><em>skew</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Map a value in [0.0, 1.0] to the same interval with a skew factor. </p>
+<p>skew = 1 gives a linear map <br  />
+ skew in [0.0, 1.0[ gives more resolution in the lower range <br  />
+ skew in [1.0, INF[ gives more resolution in the upper range <br  />
+</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">NormVal</td><td>Normalised value to map </td></tr>
+    <tr><td class="paramname">skew</td><td>Skew factor </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Mapped value </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="utility_8h_source.html#l00394">394</a> of file <a class="el" href="utility_8h_source.html">utility.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l00394"></a><span class="lineno">  394</span>&#160;                                                                   {</div>
+<div class="line"><a name="l00395"></a><span class="lineno">  395</span>&#160;    <span class="keywordflow">return</span> powf(NormVal, 1.0f / skew);</div>
+<div class="line"><a name="l00396"></a><span class="lineno">  396</span>&#160;}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a5501bd4f29ebcc566859fc57e3314b24"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5501bd4f29ebcc566859fc57e3314b24">&#9670;&nbsp;</a></span>fastLog2()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float adsp::fastLog2 </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>val</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Faster (and less precise) log2 function. </p>
+<p>Based on ideas on stack overflow by users Louis Geoffroy, CuriousGeorge and netvope <br  />
+ <a href="https://stackoverflow.com/questions/9411823/fast-log2float-x-implementation-c">https://stackoverflow.com/questions/9411823/fast-log2float-x-implementation-c</a></p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">val</td><td>Input value </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>log2(val) </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="utility_8h_source.html#l00410">410</a> of file <a class="el" href="utility_8h_source.html">utility.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l00410"></a><span class="lineno">  410</span>&#160;                                 {</div>
+<div class="line"><a name="l00411"></a><span class="lineno">  411</span>&#160;    <span class="keyword">union </span>{</div>
+<div class="line"><a name="l00412"></a><span class="lineno">  412</span>&#160;        <span class="keywordtype">float</span> val;</div>
+<div class="line"><a name="l00413"></a><span class="lineno">  413</span>&#160;        int32_t x;</div>
+<div class="line"><a name="l00414"></a><span class="lineno">  414</span>&#160;    } u = {val};</div>
+<div class="line"><a name="l00415"></a><span class="lineno">  415</span>&#160;    <span class="keywordtype">float</span> log_2 = (float)(((u.x &gt;&gt; 23) &amp; 255) - 128);</div>
+<div class="line"><a name="l00416"></a><span class="lineno">  416</span>&#160;    u.x &amp;= ~(255 &lt;&lt; 23);</div>
+<div class="line"><a name="l00417"></a><span class="lineno">  417</span>&#160;    u.x += 127 &lt;&lt; 23;</div>
+<div class="line"><a name="l00418"></a><span class="lineno">  418</span>&#160;    log_2 += ((-0.34484843f) * u.val + 2.02466578f) * u.val - 0.67487759f;</div>
+<div class="line"><a name="l00419"></a><span class="lineno">  419</span>&#160;    <span class="keywordflow">return</span> (log_2);</div>
+<div class="line"><a name="l00420"></a><span class="lineno">  420</span>&#160;}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="a924c6d212386e2cba9fa98f5b545faa3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a924c6d212386e2cba9fa98f5b545faa3">&#9670;&nbsp;</a></span>PI</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr double adsp::PI</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">=</div>
+<div class="line">    3.14159265358979323846264338327950288419716939937510582097494459230781640628620899</div>
+</div><!-- fragment -->
+<p><img class="formulaInl" alt="$ \pi $" src="form_0.png" width="9" height="6"/> </p>
+
+<p class="definition">Definition at line <a class="el" href="utility_8h_source.html#l00039">39</a> of file <a class="el" href="utility_8h_source.html">utility.h</a>.</p>
+
+</div>
+</div>
+<a id="a25e28d6122d1d24b5233edcb5a29fffa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a25e28d6122d1d24b5233edcb5a29fffa">&#9670;&nbsp;</a></span>TWO_PI</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr double adsp::TWO_PI</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">=</div>
+<div class="line">    2.0 *</div>
+<div class="line">    3.14159265358979323846264338327950288419716939937510582097494459230781640628620899</div>
+</div><!-- fragment -->
+<p><img class="formulaInl" alt="$ 2\pi $" src="form_1.png" width="14" height="9"/> </p>
+
+<p class="definition">Definition at line <a class="el" href="utility_8h_source.html#l00045">45</a> of file <a class="el" href="utility_8h_source.html">utility.h</a>.</p>
+
 </div>
 </div>
 </div><!-- contents -->
