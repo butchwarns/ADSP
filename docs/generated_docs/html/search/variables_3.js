@@ -1,4 +1,7 @@
 var searchData=
 [
-  ['sqrt_5ftwo_48',['SQRT_TWO',['../utility_8h.html#a4be58af5b503a050f4b5429dd319ded0',1,'adsp']]]
+  ['max_5ffilter_5ffreq_82',['MAX_FILTER_FREQ',['../utility_8h.html#a3145af7a0ccbe06a83696bcd307bf397',1,'adsp']]],
+  ['min_5ffilter_5ffreq_83',['MIN_FILTER_FREQ',['../utility_8h.html#aa666e69696ab5d638626861c708df783',1,'adsp']]],
+  ['min_5ffloat_5fval_5fneg_84',['MIN_FLOAT_VAL_NEG',['../utility_8h.html#a37dd5af172114816f2b7e848bf18d4ac',1,'adsp']]],
+  ['min_5ffloat_5fval_5fpos_85',['MIN_FLOAT_VAL_POS',['../utility_8h.html#ad3fcd671ba5dd22838eb77ef05c7a79d',1,'adsp']]]
 ];

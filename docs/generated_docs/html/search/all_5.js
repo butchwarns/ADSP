@@ -1,7 +1,5 @@
 var searchData=
 [
-  ['max_5ffilter_5ffreq_12',['MAX_FILTER_FREQ',['../utility_8h.html#a3145af7a0ccbe06a83696bcd307bf397',1,'adsp']]],
-  ['min_5ffilter_5ffreq_13',['MIN_FILTER_FREQ',['../utility_8h.html#aa666e69696ab5d638626861c708df783',1,'adsp']]],
-  ['min_5ffloat_5fval_5fneg_14',['MIN_FLOAT_VAL_NEG',['../utility_8h.html#a37dd5af172114816f2b7e848bf18d4ac',1,'adsp']]],
-  ['min_5ffloat_5fval_5fpos_15',['MIN_FLOAT_VAL_POS',['../utility_8h.html#ad3fcd671ba5dd22838eb77ef05c7a79d',1,'adsp']]]
+  ['linmap_21',['linMap',['../utility_8h.html#a29ff9bd262bb9e786b80737294211471',1,'adsp']]],
+  ['linmapnorm_22',['linMapNorm',['../utility_8h.html#a664ff376106a6dbc3f6ec0b81c76451f',1,'adsp']]]
 ];

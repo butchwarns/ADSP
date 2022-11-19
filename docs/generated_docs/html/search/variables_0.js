@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['frac_5fone_5fpi_41',['FRAC_ONE_PI',['../utility_8h.html#a2487810cfa154859a8884ed98c9da403',1,'adsp']]],
-  ['frac_5fone_5fsqrt_5ftwo_42',['FRAC_ONE_SQRT_TWO',['../utility_8h.html#a8d9b8a866f31ee445e5b86cff972822b',1,'adsp']]]
+  ['biquad_78',['biquad',['../classadsp_1_1RcLp1.html#a49bcc10feac1338cafece0970769aec3',1,'adsp::RcLp1']]]
 ];

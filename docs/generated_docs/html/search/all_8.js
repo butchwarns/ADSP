@@ -1,6 +1,7 @@
 var searchData=
 [
-  ['sgn_19',['sgn',['../utility_8h.html#a3168b9995b98f7a6e53900f1572d621e',1,'adsp']]],
-  ['skewnormalized_20',['skewNormalized',['../utility_8h.html#a90fe5a958e267e871b3b69f4d217d43d',1,'adsp::skewNormalized(const double NormVal, const double skew)'],['../utility_8h.html#ad1119ef9ec07a89e02a6b90f404522e3',1,'adsp::skewNormalized(const float NormVal, const float skew)']]],
-  ['sqrt_5ftwo_21',['SQRT_TWO',['../utility_8h.html#a4be58af5b503a050f4b5429dd319ded0',1,'adsp']]]
+  ['rawgaintodb_32',['rawGainTodB',['../utility_8h.html#ada81cd891219ee611eb7a406496c5a5a',1,'adsp::rawGainTodB(double gain)'],['../utility_8h.html#a6df668dea6891f8636b8bc292cd7a422',1,'adsp::rawGainTodB(float gain)']]],
+  ['rclp1_33',['RcLp1',['../classadsp_1_1RcLp1.html',1,'adsp']]],
+  ['rclp1params_34',['RcLp1Params',['../structadsp_1_1RcLp1Params.html',1,'adsp']]],
+  ['reset_35',['reset',['../classadsp_1_1Biquad.html#a274f147a0f92700e1509da08e3c90f45',1,'adsp::Biquad::reset()'],['../classadsp_1_1RcLp1.html#a1c2f85c5cdcf522400d1b36bc15fbe52',1,'adsp::RcLp1::reset()']]]
 ];

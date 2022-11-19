@@ -1,5 +1,7 @@
 var searchData=
 [
-  ['pi_16',['PI',['../utility_8h.html#a924c6d212386e2cba9fa98f5b545faa3',1,'adsp']]],
-  ['pitchtofreq_17',['pitchToFreq',['../utility_8h.html#a97b7151674fe979bbd560f8d9b0e6eff',1,'adsp::pitchToFreq(const double pitch)'],['../utility_8h.html#a6dd1677957ab7e16d6c99d97fdb5d1a5',1,'adsp::pitchToFreq(const float pitch)']]]
+  ['max_5ffilter_5ffreq_23',['MAX_FILTER_FREQ',['../utility_8h.html#a3145af7a0ccbe06a83696bcd307bf397',1,'adsp']]],
+  ['min_5ffilter_5ffreq_24',['MIN_FILTER_FREQ',['../utility_8h.html#aa666e69696ab5d638626861c708df783',1,'adsp']]],
+  ['min_5ffloat_5fval_5fneg_25',['MIN_FLOAT_VAL_NEG',['../utility_8h.html#a37dd5af172114816f2b7e848bf18d4ac',1,'adsp']]],
+  ['min_5ffloat_5fval_5fpos_26',['MIN_FLOAT_VAL_POS',['../utility_8h.html#ad3fcd671ba5dd22838eb77ef05c7a79d',1,'adsp']]]
 ];
