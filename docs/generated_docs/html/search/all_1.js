@@ -1,7 +1,9 @@
 var searchData=
 [
-  ['calculatefiltercoefficients_6',['calculateFilterCoefficients',['../classadsp_1_1RcLp1.html#abc59a1b0162e3984a17ce2ffb8b26bb6',1,'adsp::RcLp1']]],
-  ['clip_7',['clip',['../utility_8h.html#a1a5f23603f7f62c0e0c5839126817632',1,'adsp::clip(double x, const double min=-1.0f, const double max=1.0f)'],['../utility_8h.html#afbdc53f1fdabf69ed276c3e2e37be6f9',1,'adsp::clip(float x, const float min=-1.0f, const float max=1.0f)']]],
-  ['clipinplace_8',['clipInPlace',['../utility_8h.html#a75702ac6f8717f2b8fdc8a102eb5f41a',1,'adsp::clipInPlace(double &amp;x, const double min=-1.0, const double max=1.0)'],['../utility_8h.html#a8f45f28556c92395449841fcf1395029',1,'adsp::clipInPlace(float &amp;x, const float min=-1.0f, const float max=1.0f)']]],
-  ['coefficientsarray_9',['coefficientsArray',['../classadsp_1_1Biquad.html#aa6d1cda514de090f390ee5e6284ba012',1,'adsp::Biquad::coefficientsArray()'],['../classadsp_1_1RcLp1.html#ac41e265fcefa1fe910d13e4e3079388f',1,'adsp::RcLp1::coefficientsArray()']]]
+  ['bipolartounipolar_1',['bipolarToUnipolar',['../utility_8h.html#a7fac49195849529f9e9f9a6cb0a005d1',1,'adsp']]],
+  ['biquad_2',['Biquad',['../classadsp_1_1Biquad.html',1,'adsp']]],
+  ['biquad_3',['biquad',['../classadsp_1_1RcLp1.html#a49bcc10feac1338cafece0970769aec3',1,'adsp::RcLp1']]],
+  ['biquad_2eh_4',['Biquad.h',['../Biquad_8h.html',1,'']]],
+  ['biquadalgorithm_5',['biquadAlgorithm',['../Biquad_8h.html#abf7e9c9a01c1c792dcc2e515b07cbff4',1,'adsp']]],
+  ['biquadparams_6',['BiquadParams',['../structadsp_1_1BiquadParams.html',1,'adsp']]]
 ];

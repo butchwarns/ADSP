@@ -1,9 +1,5 @@
 var searchData=
 [
-  ['fastlog2_12',['fastLog2',['../utility_8h.html#a5501bd4f29ebcc566859fc57e3314b24',1,'adsp']]],
-  ['filtercoefficients_13',['filterCoefficients',['../Biquad_8h.html#aa82753a90ff862ff61632d80cde4ebc0',1,'adsp']]],
-  ['fixunderflow_14',['fixUnderflow',['../utility_8h.html#ae96bb17c28a879ed0e69c6e1e528ac65',1,'adsp']]],
-  ['frac_5fone_5fpi_15',['FRAC_ONE_PI',['../utility_8h.html#a2487810cfa154859a8884ed98c9da403',1,'adsp']]],
-  ['frac_5fone_5fsqrt_5ftwo_16',['FRAC_ONE_SQRT_TWO',['../utility_8h.html#a38062d135b769e8191b7c0356aed2fe3',1,'adsp']]],
-  ['freqtopitch_17',['freqToPitch',['../utility_8h.html#a8d96494e154e535ed9a2811924bdc5ab',1,'adsp::freqToPitch(const double freq)'],['../utility_8h.html#aea003fba334031d06c857e5d85ae50c9',1,'adsp::freqToPitch(float freq)']]]
+  ['dbtorawgain_11',['dbToRawGain',['../utility_8h.html#a9a4e07a0052471d0a5f41872820f73aa',1,'adsp::dbToRawGain(double dB)'],['../utility_8h.html#ad4cd31223f5f9b6d0cd9f686aa32eb5d',1,'adsp::dbToRawGain(float dB)']]],
+  ['dbtorawgainoff_12',['dbToRawGainOff',['../utility_8h.html#a4c596e4fa260b95b30be597602f31d51',1,'adsp::dbToRawGainOff(const double dB, const double offdB)'],['../utility_8h.html#ae1730a70a8db5920eac3cedf7bbec902',1,'adsp::dbToRawGainOff(const float dB, const float offdB)']]]
 ];
