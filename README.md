@@ -1,7 +1,10 @@
 # ADSP
 
-![Unit tests status badge](https://github.com/butchwarns/ADSP/actions/workflows/tests.yml/badge.svg)
+![[OPEN_SOURCE_HEART_BADGE]](https://badges.frapsoft.com/os/v1/open-source.png?v=103)
+![[BSD_2_CLAUSE_LICENSE_BADGE]](https://img.shields.io/badge/License-BSD&#8722;2&#8722;Clause-blue.svg)
 
-This is some of the DSP code I use to build audio plugins. (More precisely: ongoing work in progress!)
+![[UNIT_TEST_STATUS_BADGE]](https://github.com/butchwarns/Audio_DSP/actions/workflows/tests.yml/badge.svg)
 
-At the moment the library is structured as a JUCE module, but does not depend on it in any way. This way the library can easily be added to any project by just including the code files. More info to follow..
+This is some of the DSP code I use to build audio plugins. (More precisely: **WORK IN PROGRESS!**)
+
+The ADSP library can be added to a project by just including the code files. More info to follow..

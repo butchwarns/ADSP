@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="150"
+   height="55"
+   viewBox="0 0 39.687499 14.552083"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   sodipodi:docname="adsp_logo.svg"
+   inkscape:export-filename="adsp_logo.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="2.4678512"
+     inkscape:cx="-26.338703"
+     inkscape:cy="113.05382"
+     inkscape:window-width="1920"
+     inkscape:window-height="1011"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-size:14.1111px;line-height:1.25;font-family:Manrope;-inkscape-font-specification:'Manrope Ultra-Bold';stroke-width:0.264583"
+       x="3.0585907"
+       y="10.662706"
+       id="text186"><tspan
+         sodipodi:role="line"
+         id="tspan184"
+         style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-size:14.1111px;font-family:Manrope;-inkscape-font-specification:'Manrope Ultra-Bold';stroke-width:0.264583"
+         x="3.0585907"
+         y="10.662706">adsp</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:1.79684;stroke-dasharray:none;stroke-opacity:0.990674;paint-order:markers stroke fill"
+       id="rect448"
+       width="37.890663"
+       height="12.755245"
+       x="0.89842016"
+       y="0.89842016" />
+  </g>
+</svg>
