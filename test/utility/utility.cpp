@@ -43,16 +43,16 @@ TEST_CASE("Fix floating point underflow", "[utility]")
     {
         double tooSmall = adsp::MIN_FLOAT_VAL_POS / 2.0;
 
-        adsp::fixUnderflow(tooSmallF);
+        adsp::fixUnderflow(tooSmall);
 
         REQUIRE(tooSmall == 0.0);
     }
 
     SECTION("Negative float underflow")
     {
-        double tooSmall = adsp::MIN_FLAOT_VAL_NEG / 2.0;
+        double tooSmall = adsp::MIN_FLOAT_VAL_NEG / 2.0;
 
-        adsp::fixUnderflow(tooSmallD);
+        adsp::fixUnderflow(tooSmall);
 
         REQUIRE(tooSmall == 0.0);
     }
@@ -261,18 +261,6 @@ TEST_CASE("dB <-> raw gain conversions", "[utility]")
 // inline double skewNormalized(const double NormVal, const double skew);
 
 // inline float skewNormalized(const float NormVal, const float skew);
-
-//==============================================================================
-// Interpolations
-
-TEST_CASE("Interpolations", "[utility]")
-{
-    SECTION("Linear interpolation")
-    {
-        REQUIRE(adsp::interpolateLinear(0.0, 1.0, 0.5) == Approx(0.5));
-        REQUIRE(adsp::interpolateLinear(0.0, 10.0, 0.5) == Approx(5.0));
-    }
-}
 
 //==============================================================================
 // Fast function approximations
