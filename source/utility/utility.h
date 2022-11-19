@@ -54,12 +54,12 @@ constexpr double FRAC_ONE_PI = 1.0 / PI;  // 1 / PI
 /**
 * @brief @f$ \sqrt{2} @f$
 */
-constexpr double SQRT_TWO = pow(2.0, 0.5);
+const double SQRT_TWO = pow(2.0, 0.5);
 
 /**
 * @brief @f$ 1/\sqrt{2} @f$
 */
-constexpr double FRAC_ONE_SQRT_TWO = pow(2.0, -0.5);  // 1 / sqrt(2)
+const double FRAC_ONE_SQRT_TWO = pow(2.0, -0.5);  // 1 / sqrt(2)
 
 /**
 * @brief Smallest positive float value
