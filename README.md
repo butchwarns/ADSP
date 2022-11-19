@@ -7,4 +7,6 @@
 
 This is some of the DSP code I use to build audio plugins. (More precisely: **WORK IN PROGRESS!**)
 
-The ADSP library can be added to a project by just including the code files. More info to follow..
+The ADSP library can be added to a project by just including the code files. 
+
+More info to follow..
