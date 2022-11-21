@@ -38,3 +38,4 @@
 #include "source/filter/Biquad.h"
 #include "source/utility/utility.h"
 #include "source/filter/RcLp1.h"
+#include "source/filter/RcHp1.h"
