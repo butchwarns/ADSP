@@ -66,7 +66,7 @@ struct RcLp1Params {
 /**
 * @brief First-order RC low-pass filter
 * 
-* Analog modelled by means of a prewarped bilinear transformation.  
+* Analog modeled by means of a prewarped bilinear transformation.  
 * Prewarping was chosen to match cutoff frequencies.  
 * This filter has not been decramped.  
 */
