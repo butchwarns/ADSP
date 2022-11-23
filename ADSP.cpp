@@ -41,3 +41,5 @@
 #include "source/filter/Biquad.cpp"
 #include "source/filter/RcLp1.cpp"
 #include "source/filter/RcHp1.cpp"
+#include "source/filter/SkLp2.cpp"
+#include "source/filter/SkHp2.cpp"

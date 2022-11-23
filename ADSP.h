@@ -39,3 +39,5 @@
 #include "source/utility/utility.h"
 #include "source/filter/RcLp1.h"
 #include "source/filter/RcHp1.h"
+#include "source/filter/SkLp2.h"
+#include "source/filter/SkHp2.h"
