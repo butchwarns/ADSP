@@ -109,10 +109,10 @@ class RcHp1 {
     RcHp1Params getParameters();
 
     /**
-     * @brief Set parameters
-     * 
-     * @param New filter parameters
-     */
+    * @brief Set parameters
+    * 
+    * @param New filter parameters
+    */
     void setParameters(const RcHp1Params &parameters);
 
    protected:
