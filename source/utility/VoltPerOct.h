@@ -33,10 +33,10 @@
 */
 
 /**
- * @file VoltPerOct.h
- *
- * @brief Volt per octave <-> frequency conversion class
- */
+* @file VoltPerOct.h
+*
+* @brief Volt per octave <-> frequency conversion class
+*/
 
 #pragma once
 
@@ -44,56 +44,56 @@
 
 namespace adsp {
 /**
- * @brief Volt per octave / frequency conversion class
- * 
- * Conversion is tuned to a given zero-volt-frequency.
- */
+* @brief Volt per octave / frequency conversion class
+* 
+* Conversion is tuned to a given zero-volt-frequency.
+*/
 class VoltPerOct {
    public:
     // C0 = 16.35Hz
     VoltPerOct(double _zeroVoltFreq = 16.35) : zeroVoltFreq(_zeroVoltFreq) {}
-    ~VoltPerOct(){}
+    ~VoltPerOct() {}
 
     //==============================================================================
 
     /**
-     * @brief Tune the conversion to a given frequency at zero voltage
-     * 
-     * @param _zeroVoltFreq Frequency at zero volts
-     */
+    * @brief Tune the conversion to a given frequency at zero voltage
+    * 
+    * @param _zeroVoltFreq Frequency at zero volts
+    */
     void setZeroVoltFreq(const double _zeroVoltFreq = 16.35) {
         zeroVoltFreq = _zeroVoltFreq;
     }
 
     /**
-     * @brief Get current tuning
-     * 
-     * @return Frequency corresponding to zero voltage
-     */
+    * @brief Get current tuning
+    * 
+    * @return Frequency corresponding to zero voltage
+    */
     double getZeroVoltFreq() { return zeroVoltFreq; }
 
     //==============================================================================
 
     /**
-     * @brief Convert voltage to frequency
-     * 
-     * Uses currently set tuning.
-     * 
-     * @param volt Voltage to convert
-     * @return Frequency 
-     */
+    * @brief Convert voltage to frequency
+    * 
+    * Uses currently set tuning.
+    * 
+    * @param volt Voltage to convert
+    * @return Frequency 
+    */
     inline double voltToFreq(const double &volt) {
         return zeroVoltFreq * pow(2.0, volt);
     }
 
     /**
-     * @brief Convert frequency to voltage
-     * 
-     * Uses currently set tuning.
-     * 
-     * @param freq Frequency to convert
-     * @return Voltage 
-     */
+    * @brief Convert frequency to voltage
+    * 
+    * Uses currently set tuning.
+    * 
+    * @param freq Frequency to convert
+    * @return Voltage 
+    */
     inline double freqToVolt(const double &freq) {
         return log2(freq / zeroVoltFreq);
     }
@@ -101,12 +101,12 @@ class VoltPerOct {
     //==============================================================================
 
     /**
-     * @brief Detune voltage by semitones
-     * 
-     * @param volt Voltage to detune
-     * @param semitones Amount to detune by in semitones
-     * @return Detuned voltage
-     */
+    * @brief Detune voltage by semitones
+    * 
+    * @param volt Voltage to detune
+    * @param semitones Amount to detune by in semitones
+    * @return Detuned voltage
+    */
     static inline double detuneSemitones(const double &volt,
                                          const double &semitones) {
         constexpr double voltPerSemitone = 1.0 / 12.0;
@@ -114,12 +114,12 @@ class VoltPerOct {
     }
 
     /**
-     * @brief Detune voltage by cents
-     * 
-     * @param volt Voltage to detune
-     * @param cents Amount to detune by in cents
-     * @return Detuned voltage
-     */
+    * @brief Detune voltage by cents
+    * 
+    * @param volt Voltage to detune
+    * @param cents Amount to detune by in cents
+    * @return Detuned voltage
+    */
     static inline double detuneCents(const float &volt, const float &cents) {
         constexpr double voltPerCent = 1.0 / (12.0 * 100.0);
         return volt + cents * voltPerCent;
@@ -127,8 +127,8 @@ class VoltPerOct {
 
    protected:
     /**
-     * @brief Tuning (frequency at zero volts)
-     */
+    * @brief Tuning (frequency at zero volts)
+    */
     double zeroVoltFreq{16.35};
 };
 }  // namespace adsp
