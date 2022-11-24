@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['voltperoct_64',['VoltPerOct',['../classadsp_1_1VoltPerOct.html',1,'adsp']]],
-  ['voltperoct_2eh_65',['VoltPerOct.h',['../VoltPerOct_8h.html',1,'']]],
-  ['volttofreq_66',['voltToFreq',['../classadsp_1_1VoltPerOct.html#aeed646e57a709cc11aeed2d18dc2a78a',1,'adsp::VoltPerOct']]]
+  ['t_93',['T',['../classadsp_1_1OscEptr.html#abc6018ff82af26a128b13cee63533ed1',1,'adsp::OscEptr::T()'],['../classadsp_1_1OscTrivial.html#a3630243925a3a561e8cfca95f9442f8f',1,'adsp::OscTrivial::T()']]],
+  ['tri_94',['tri',['../structadsp_1_1OscEptrOut.html#a1c78ebd63857b513f603999e8b10544b',1,'adsp::OscEptrOut']]],
+  ['two_5fpi_95',['TWO_PI',['../utility_8h.html#a25e28d6122d1d24b5233edcb5a29fffa',1,'adsp']]]
 ];

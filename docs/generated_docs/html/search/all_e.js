@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['zerovoltfreq_67',['zeroVoltFreq',['../classadsp_1_1VoltPerOct.html#a82a7210fcd9ead5bd4848adf0dc469cb',1,'adsp::VoltPerOct']]]
+  ['unipolartobipolar_96',['unipolarToBipolar',['../utility_8h.html#aaa86daff1de096ba9b610f0c76797b68',1,'adsp']]],
+  ['utility_2eh_97',['utility.h',['../utility_8h.html',1,'']]]
 ];

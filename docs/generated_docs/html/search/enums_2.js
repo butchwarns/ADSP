@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['stateregisters_134',['stateRegisters',['../Biquad_8h.html#a9b80e94d0f8f203999b69cccf22a6409',1,'adsp']]]
+  ['filtercoefficients_202',['filterCoefficients',['../Biquad_8h.html#aa82753a90ff862ff61632d80cde4ebc0',1,'adsp']]]
 ];

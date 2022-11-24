@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['skhp2_2eh_82',['SkHp2.h',['../SkHp2_8h.html',1,'']]],
-  ['sklp2_2eh_83',['SkLp2.h',['../SkLp2_8h.html',1,'']]]
+  ['osceptr_2eh_127',['OscEptr.h',['../OscEptr_8h.html',1,'']]],
+  ['osctrivial_2eh_128',['OscTrivial.h',['../OscTrivial_8h.html',1,'']]]
 ];

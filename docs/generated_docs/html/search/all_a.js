@@ -1,19 +1,11 @@
 var searchData=
 [
-  ['samplerate_45',['sampleRate',['../classadsp_1_1RcHp1.html#a0cff04b61e0500f23559bd128924a2a5',1,'adsp::RcHp1::sampleRate()'],['../classadsp_1_1RcLp1.html#aee991849cf74229e71a13b7bad328652',1,'adsp::RcLp1::sampleRate()'],['../classadsp_1_1SkHp2.html#ab0acdd4474e158703f32cd0766c0a2ba',1,'adsp::SkHp2::sampleRate()'],['../classadsp_1_1SkLp2.html#aa150206ea86c74d9e9f6d658f63394bf',1,'adsp::SkLp2::sampleRate()']]],
-  ['setcoefficients_46',['setCoefficients',['../classadsp_1_1Biquad.html#aff0103015b048a019e4d7cb36b52c5ff',1,'adsp::Biquad']]],
-  ['setparameters_47',['setParameters',['../classadsp_1_1SkLp2.html#a03b96210ea963a3f4a1c0db5fd95204a',1,'adsp::SkLp2::setParameters()'],['../classadsp_1_1Biquad.html#aec20f59661f607a41d57d2328666369d',1,'adsp::Biquad::setParameters()'],['../classadsp_1_1RcHp1.html#a79a85b31d93e5b994266c1e20eb4e388',1,'adsp::RcHp1::setParameters()'],['../classadsp_1_1RcLp1.html#ab04c344599d95b0b524013636e89141b',1,'adsp::RcLp1::setParameters()'],['../classadsp_1_1SkHp2.html#a27a4e68c17f1fdd7b56173bce7f73313',1,'adsp::SkHp2::setParameters()']]],
-  ['setsamplerate_48',['setSampleRate',['../classadsp_1_1SkLp2.html#aa56f405d970087b53f5c77e8b520e10e',1,'adsp::SkLp2::setSampleRate()'],['../classadsp_1_1SkHp2.html#a9aff67aa3c71dff61d2932ef6e2d55b3',1,'adsp::SkHp2::setSampleRate()'],['../classadsp_1_1RcLp1.html#ad7c8d7c295ca5beec38bc0b085ed8f6a',1,'adsp::RcLp1::setSampleRate()'],['../classadsp_1_1RcHp1.html#a7b1a234b1abcd95045d118e62918fcd8',1,'adsp::RcHp1::setSampleRate()']]],
-  ['setzerovoltfreq_49',['setZeroVoltFreq',['../classadsp_1_1VoltPerOct.html#a2b7648f47b7d127c7c4df9db2a4fef1d',1,'adsp::VoltPerOct']]],
-  ['sgn_50',['sgn',['../utility_8h.html#a3168b9995b98f7a6e53900f1572d621e',1,'adsp']]],
-  ['skewnormalized_51',['skewNormalized',['../utility_8h.html#a90fe5a958e267e871b3b69f4d217d43d',1,'adsp::skewNormalized(const double NormVal, const double skew)'],['../utility_8h.html#ad1119ef9ec07a89e02a6b90f404522e3',1,'adsp::skewNormalized(const float NormVal, const float skew)']]],
-  ['skhp2_52',['SkHp2',['../classadsp_1_1SkHp2.html',1,'adsp']]],
-  ['skhp2_2eh_53',['SkHp2.h',['../SkHp2_8h.html',1,'']]],
-  ['skhp2params_54',['SkHp2Params',['../structadsp_1_1SkHp2Params.html',1,'adsp']]],
-  ['sklp2_55',['SkLp2',['../classadsp_1_1SkLp2.html',1,'adsp']]],
-  ['sklp2_2eh_56',['SkLp2.h',['../SkLp2_8h.html',1,'']]],
-  ['sklp2params_57',['SkLp2Params',['../structadsp_1_1SkLp2Params.html',1,'adsp']]],
-  ['sqrt_5ftwo_58',['SQRT_TWO',['../utility_8h.html#a0ad6e3dbe37589051f2a810506992d34',1,'adsp']]],
-  ['statearray_59',['stateArray',['../classadsp_1_1Biquad.html#a034c265fec7261de111ac43a313aca17',1,'adsp::Biquad']]],
-  ['stateregisters_60',['stateRegisters',['../Biquad_8h.html#a9b80e94d0f8f203999b69cccf22a6409',1,'adsp']]]
+  ['parameters_57',['parameters',['../classadsp_1_1Biquad.html#a2a8794286377d34102a151a619ceaa85',1,'adsp::Biquad']]],
+  ['params_58',['params',['../classadsp_1_1ApHp1.html#a63c28ba13c42329ab1052fab672a455e',1,'adsp::ApHp1::params()'],['../classadsp_1_1ApLp1.html#a65cd6489e1ebc5a7e115b43c13a4e5dc',1,'adsp::ApLp1::params()'],['../classadsp_1_1RcHp1.html#af4ef976e315d1906e6e313a54879a72e',1,'adsp::RcHp1::params()'],['../classadsp_1_1RcLp1.html#a2a96c540b4724ece4c0dee8ace9e6999',1,'adsp::RcLp1::params()'],['../classadsp_1_1SkHp2.html#a473716f499e3453f22db8d400c491325',1,'adsp::SkHp2::params()'],['../classadsp_1_1SkLp2.html#af4451ca8c952c3ee4916d658a7622568',1,'adsp::SkLp2::params()'],['../classadsp_1_1OscEptr.html#a029bd26bd3c7e6ecc5d366ee3f5dd908',1,'adsp::OscEptr::params()'],['../classadsp_1_1OscTrivial.html#a08e3242dc0fcec1d62ec1f60e2d95619',1,'adsp::OscTrivial::params()']]],
+  ['period_59',['period',['../classadsp_1_1OscEptr.html#a75465c42ad1a10c935185b9c2953182e',1,'adsp::OscEptr']]],
+  ['phase_60',['phase',['../structadsp_1_1OscTrivialParams.html#ab34a1167047ebb5e90931f9362f6f331',1,'adsp::OscTrivialParams']]],
+  ['pi_61',['PI',['../utility_8h.html#a924c6d212386e2cba9fa98f5b545faa3',1,'adsp']]],
+  ['pitchtofreq_62',['pitchToFreq',['../utility_8h.html#a6dd1677957ab7e16d6c99d97fdb5d1a5',1,'adsp::pitchToFreq(const float pitch)'],['../utility_8h.html#a97b7151674fe979bbd560f8d9b0e6eff',1,'adsp::pitchToFreq(const double pitch)']]],
+  ['process_63',['process',['../classadsp_1_1RcHp1.html#a9f44f9c5a4d792f8ff4f70934b07f6f5',1,'adsp::RcHp1::process()'],['../classadsp_1_1RcLp1.html#a4abfda62a3cea90ef93aa21ac5bcfa97',1,'adsp::RcLp1::process()'],['../classadsp_1_1SkHp2.html#ac7632cedfb165cef8a6f804572addfc3',1,'adsp::SkHp2::process()'],['../classadsp_1_1SkLp2.html#a006655b7fd5e557ec287b7f6bb82ba0a',1,'adsp::SkLp2::process()'],['../classadsp_1_1Biquad.html#aca21db71509d3cedad7811d0dec3835d',1,'adsp::Biquad::process()'],['../classadsp_1_1ApLp1.html#a92a498141b4f9c30a1a64dcc08c78145',1,'adsp::ApLp1::process()'],['../classadsp_1_1ApHp1.html#a7aa0e5fd7d4ce0118d4ab10e572260a0',1,'adsp::ApHp1::process()']]],
+  ['pulsewidth_64',['pulseWidth',['../structadsp_1_1OscEptrParams.html#a5df9634399b223f5ecfddfbe797ed28a',1,'adsp::OscEptrParams']]]
 ];

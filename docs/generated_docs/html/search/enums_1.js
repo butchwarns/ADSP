@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['filtercoefficients_133',['filterCoefficients',['../Biquad_8h.html#aa82753a90ff862ff61632d80cde4ebc0',1,'adsp']]]
+  ['eptrcorrcoeffs_201',['eptrCorrCoeffs',['../OscEptr_8h.html#a96c8014bf31f004a5dbad7714190522c',1,'adsp']]]
 ];
