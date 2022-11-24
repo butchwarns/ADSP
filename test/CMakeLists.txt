@@ -13,6 +13,7 @@ add_subdirectory(Catch2)
 # Add executable and link libraries
 add_executable(unit_tests 
 utility/utility.cpp
+utility/VoltPerOct.cpp
 )
 
 target_link_libraries(unit_tests PRIVATE Catch2::Catch2WithMain)
