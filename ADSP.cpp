@@ -38,8 +38,17 @@
 
 #include "ADSP.h"
 
+//==============================================================================
+
+#include "source/filter/ApHp1.cpp"
+#include "source/filter/ApLp1.cpp"
 #include "source/filter/Biquad.cpp"
-#include "source/filter/RcLp1.cpp"
 #include "source/filter/RcHp1.cpp"
-#include "source/filter/SkLp2.cpp"
+#include "source/filter/RcLp1.cpp"
 #include "source/filter/SkHp2.cpp"
+#include "source/filter/SkLp2.cpp"
+
+//==============================================================================
+
+#include "source/oscillator/OscEptr.cpp"
+#include "source/oscillator/OscTrivial.cpp"
