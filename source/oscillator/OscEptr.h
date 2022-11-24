@@ -100,10 +100,10 @@ enum class oscDirection {
     DOWN,
 };
 
-/**
+/*
  * @brief Enum to index correction coefficients array of EPTR oscillator
  */
-enum class eptrCorrCoeffs { a0, a1, a2, b0, b1, b2, numCoeffs };
+enum eptrCorrCoeffs { v0, v1, v2, w0, w1, w2, numCoeffs };
 
 /**
  * @brief Oscillator based on the "Efficient Polynomial Transition Region Algorithm" (EPTR) [Amrits and Bank 2013]
@@ -201,7 +201,7 @@ class OscEptr {
     double gradientDown{1.0};
 
     // Correction coefficients for asymmetric triangle
-    double corrCoeffs[numCoeffs];
+    double corrCoeffs[eptrCorrCoeffs::numCoeffs];
 
     // State variable for first order difference to generate pulse wave
     double differenceState{0.0};

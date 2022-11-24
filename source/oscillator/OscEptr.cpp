@@ -74,22 +74,22 @@ void OscEptr::setParams(const OscEptrParams &_params) {
         gradientDown = -gradientUp / (gradientUp - 1.0);
 
         // Correction coefficients for asymmetric TRI
-        corrCoeffs[eptrCorrCoeffs::a0] =
+        corrCoeffs[eptrCorrCoeffs::v0] =
             -1.0 * ((gradientUp * delta - 1.0) * (gradientUp * delta - 1.0)) /
             (4.0 * delta * (gradientUp - 1.0));
-        corrCoeffs[eptrCorrCoeffs::a1] =
+        corrCoeffs[eptrCorrCoeffs::v1] =
             (2.0 * gradientUp * delta - 4.0 * delta + 2.0) /
             (4.0 * delta * (gradientUp - 1.0));
-        corrCoeffs[eptrCorrCoeffs::a2] =
+        corrCoeffs[eptrCorrCoeffs::v2] =
             -1.0 / (4.0 * delta * (gradientUp - 1.0));
 
-        corrCoeffs[eptrCorrCoeffs::b0] = -1.0 * (gradientDown * delta + 1.0) *
+        corrCoeffs[eptrCorrCoeffs::w0] = -1.0 * (gradientDown * delta + 1.0) *
                                          (gradientDown * delta + 1.0) /
                                          (4.0 * delta * (gradientDown + 1.0));
-        corrCoeffs[eptrCorrCoeffs::b1] =
+        corrCoeffs[eptrCorrCoeffs::w1] =
             (2.0 * gradientDown * delta + 4.0 * delta - 2.0) /
             (4.0 * delta * (gradientDown + 1.0));
-        corrCoeffs[eptrCorrCoeffs::b2] =
+        corrCoeffs[eptrCorrCoeffs::w2] =
             -1.0 / (4.0 * delta * (gradientDown + 1.0));
     }
 }
@@ -103,15 +103,15 @@ double OscEptr::correctCounterSaw() {
 //==============================================================================
 
 double OscEptr::correctCounterTriMin() {
-    return corrCoeffs[eptrCorrCoeffs::b2] * counterTri * counterTri +
-           corrCoeffs[eptrCorrCoeffs::b1] * counterTri +
-           corrCoeffs[eptrCorrCoeffs::b0];
+    return corrCoeffs[eptrCorrCoeffs::w2] * counterTri * counterTri +
+           corrCoeffs[eptrCorrCoeffs::w1] * counterTri +
+           corrCoeffs[eptrCorrCoeffs::w0];
 }
 
 double OscEptr::correctCounterTriMax() {
-    return corrCoeffs[eptrCorrCoeffs::a2] * counterTri * counterTri +
-           corrCoeffs[eptrCorrCoeffs::a1] * counterTri +
-           corrCoeffs[eptrCorrCoeffs::a0];
+    return corrCoeffs[eptrCorrCoeffs::v2] * counterTri * counterTri +
+           corrCoeffs[eptrCorrCoeffs::v1] * counterTri +
+           corrCoeffs[eptrCorrCoeffs::v0];
 }
 
 OscEptrOut OscEptr::renderOutputs() {
