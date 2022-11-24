@@ -35,8 +35,10 @@
 #pragma once
 #define ADSP_H_INCLUDED
 
-#include "source/filter/Biquad.h"
 #include "source/utility/utility.h"
+#include "source/utility/VoltPerOct.h"
+
+#include "source/filter/Biquad.h"
 #include "source/filter/RcLp1.h"
 #include "source/filter/RcHp1.h"
 #include "source/filter/SkLp2.h"
