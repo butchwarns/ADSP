@@ -38,8 +38,8 @@ namespace adsp {
 ApHp1::ApHp1() {}
 ApHp1::~ApHp1() {}
 
-void ApHp1::reset(double sampleRate) {
-    sampleRate = sampleRate;
+void ApHp1::reset(double _sampleRate) {
+    sampleRate = _sampleRate;
 
     // Setup biquad object
 
@@ -56,8 +56,8 @@ double ApHp1::process(double x) { return biquad.process(x); }
 
 //==============================================================================
 
-void ApHp1::setSampleRate(double sampleRate) {
-    sampleRate = sampleRate;
+void ApHp1::setSampleRate(double _sampleRate) {
+    sampleRate = _sampleRate;
 
     // Calculate new coefficients
     calculateFilterCoefficients();

@@ -38,8 +38,8 @@ namespace adsp {
 SkHp2::SkHp2() {}
 SkHp2::~SkHp2() {}
 
-void SkHp2::reset(double sampleRate) {
-    sampleRate = sampleRate;
+void SkHp2::reset(double _sampleRate) {
+    sampleRate = _sampleRate;
 
     // Setup biquad object
 
@@ -56,8 +56,8 @@ double SkHp2::process(double x) { return biquad.process(x); }
 
 //==============================================================================
 
-void SkHp2::setSampleRate(double sampleRate) {
-    sampleRate = sampleRate;
+void SkHp2::setSampleRate(double _sampleRate) {
+    sampleRate = _sampleRate;
 
     // Calculate new coefficients
     calculateFilterCoefficients();

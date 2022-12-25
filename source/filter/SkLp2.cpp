@@ -38,8 +38,8 @@ namespace adsp {
 SkLp2::SkLp2() {}
 SkLp2::~SkLp2() {}
 
-void SkLp2::reset(double sampleRate) {
-    sampleRate = sampleRate;
+void SkLp2::reset(double _sampleRate) {
+    sampleRate = _sampleRate;
 
     // Setup biquad object
 
@@ -56,8 +56,8 @@ double SkLp2::process(double x) { return biquad.process(x); }
 
 //==============================================================================
 
-void SkLp2::setSampleRate(double sampleRate) {
-    sampleRate = sampleRate;
+void SkLp2::setSampleRate(double _sampleRate) {
+    sampleRate = _sampleRate;
 
     // Calculate new coefficients
     calculateFilterCoefficients();

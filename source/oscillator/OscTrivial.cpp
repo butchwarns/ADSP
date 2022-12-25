@@ -106,9 +106,9 @@ void OscTrivial::retrigger() {
     counterTri = phaseTri;
 }
 
-void OscTrivial::wrap(double &counter) {
-    if (counter >= 1.0) {
-        counter -= 1.0;
+void OscTrivial::wrap(double &c) {
+    if (c >= 1.0) {
+        c -= 1.0;
     }
 }
 }  // namespace adsp

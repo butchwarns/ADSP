@@ -80,9 +80,9 @@ class SkHp2 {
     /**
     * @brief Reset to default parameters, clear internal state and set sample rate
     * 
-    * @param sampleRate New sample rate
+    * @param _sampleRate New sample rate
     */
-    void reset(double sampleRate);
+    void reset(double _sampleRate);
 
     /**
     * @brief Proess a single sample
@@ -97,9 +97,9 @@ class SkHp2 {
     /**
     * @brief Set sample rate, recalculate coefficients
     * 
-    * @param sampleRate 
+    * @param _sampleRate 
     */
-    void setSampleRate(double sampleRate);
+    void setSampleRate(double _sampleRate);
 
     /**
     * @brief Get parameters
