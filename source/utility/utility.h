@@ -41,6 +41,8 @@
 #pragma once
 
 #include <cmath>
+#include <map>
+#include <cstring>
 
 namespace adsp
 {
@@ -264,6 +266,37 @@ namespace adsp
     inline float freqToPitch(float freq)
     {
         return 69.0f + 12.0f * log2f(freq / 440.0f);
+    }
+
+    /**
+     * @brief Convert note string to corresponding MIDI pitch
+     *
+     * @param note_string e.g. "Cb4", "A#3" , "F5"
+     * @return MIDI pitch
+     */
+    inline int midiPitchFromNoteString(const char *note_string)
+    {
+        // Parse note letter from input string
+        const char noteLetter = note_string[0] - 'A';
+
+        // Parse accidental from input string
+        int accidental = 0;
+        if (note_string[1] == '#')
+        {
+            accidental = 1;
+        }
+        else if (note_string[1] == 'b')
+        {
+            accidental = -1;
+        }
+
+        // Parse octave from input string
+        int octave = note_string[strlen(note_string) - 1] - '0';
+
+        // Calculate MIDI pitch by adding octave number, note letter, and accidental
+        int midiPitch = (octave + 1) * 12 + noteLetter + accidental;
+
+        return midiPitch;
     }
 
     //==============================================================================
