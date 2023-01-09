@@ -140,7 +140,7 @@ namespace adsp
          *
          * @return Next oscillator output
          */
-        virtual OscTrivialOut renderOutputs();
+        OscTrivialOut renderOutputs();
 
         /**
          * @brief Reset the internal phase accumulator (start waves from beginning)
