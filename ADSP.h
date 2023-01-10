@@ -52,8 +52,13 @@
 
 #include "source/oscillator/OscEptr.h"
 #include "source/oscillator/OscTrivial.h"
+#include "source/oscillator/Noise.h"
 
 //==============================================================================
 
 #include "source/utility/VoltPerOct.h"
 #include "source/utility/utility.h"
+
+//==============================================================================
+
+#include "source/envelope/Adsr.h"

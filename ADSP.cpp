@@ -57,3 +57,8 @@
 
 #include "source/oscillator/OscEptr.cpp"
 #include "source/oscillator/OscTrivial.cpp"
+#include "source/oscillator/Noise.cpp"
+
+//==============================================================================
+
+#include "source/envelope/Adsr.cpp"
